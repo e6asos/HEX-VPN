@@ -1,46 +1,90 @@
-
 name: Update HEX VPN
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: hex-vpn-subscription
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download public servers
+      - name: Download upstream mini bundle
         run: |
-          curl -fsSL \
-            "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt" \
-            -o servers.txt
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/mini.txt" \
+            --output upstream.txt
 
-      - name: Build HEX VPN
+      - name: Validate, brand and build subscription
+        shell: bash
         run: |
-          {
-            echo "#profile-title: HEX VPN"
-            echo "#profile-update-interval: 6"
-            grep -E '^(vless|vmess|trojan|ss|hysteria2|tuic)://' servers.txt
-          } > subscription.txt
+          python3 - <<'PY'
+          from urllib.parse import urlsplit
 
-          test "$(wc -l < subscription.txt)" -gt 2
-          rm servers.txt
+          allowed = {"vless", "vmess", "trojan", "ss", "hysteria2", "hy2", "tuic"}
+          entries = []
+          seen = set()
 
-      - name: Save updated subscription
+          with open("upstream.txt", encoding="utf-8") as source:
+              for raw in source:
+                  line = raw.strip()
+                  if not line or line.startswith("#") or any(ch.isspace() for ch in line):
+                      continue
+                  if "://" not in line:
+                      continue
+
+                  scheme = line.split("://", 1)[0].lower()
+                  if scheme not in allowed:
+                      continue
+
+                  uri = line.split("#", 1)[0]
+                  if uri.count("{") != uri.count("}"):
+                      continue
+                  try:
+                      parsed = urlsplit(uri)
+                      if not parsed.hostname or parsed.port is None:
+                          continue
+                  except ValueError:
+                      continue
+
+                  if uri in seen:
+                      continue
+                  seen.add(uri)
+                  entries.append(uri)
+                  if len(entries) == 100:
+                      break
+
+          if len(entries) < 50:
+              raise SystemExit(f"Only {len(entries)} valid configs; refusing to publish.")
+
+          with open("subscription.txt", "w", encoding="utf-8", newline="\n") as output:
+              output.write("#profile-title: HEX VPN\n")
+              output.write("#profile-update-interval: 6\n")
+              for number, uri in enumerate(entries, 1):
+                  output.write(f"{uri}#HEX%20%7C%20Server%20{number:02d}\n")
+
+          print(f"Built HEX VPN with {len(entries)} syntactically valid configs.")
+          PY
+          rm upstream.txt
+
+      - name: Commit subscription if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add subscription.txt
-
           if ! git diff --cached --quiet; then
-            git commit -m "Update HEX VPN servers"
+            git commit -m "Update HEX VPN subscription"
             git push
+          else
+            echo "Subscription is already up to date."
           fi
