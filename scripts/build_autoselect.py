@@ -147,6 +147,14 @@ def convert(uri):
         if ":" not in userinfo:
             raise ValueError("bad Shadowsocks credentials")
         method, password = userinfo.split(":", 1)
+        supported_methods = {
+            "aes-128-gcm", "aes-256-gcm",
+            "chacha20-ietf-poly1305", "xchacha20-ietf-poly1305",
+            "2022-blake3-aes-128-gcm", "2022-blake3-aes-256-gcm",
+            "2022-blake3-chacha20-poly1305",
+        }
+        if method.lower() not in supported_methods:
+            raise ValueError(f"unsupported Shadowsocks cipher: {method}")
         endpoint_parsed = urlsplit("ss://" + endpoint)
         host, port = endpoint_parsed.hostname, parse_port(endpoint_parsed.port)
         if not host:
