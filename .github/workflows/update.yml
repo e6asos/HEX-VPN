@@ -30,7 +30,7 @@ jobs:
             "https://radarhub.top/v2ray.txt" \
             --output upstream.b64
           curl --fail --location --retry 3 --retry-delay 5 \
-            "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub1.txt" \
+            "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/all.txt" \
             --output quality.b64
 
       - name: Build HEX VPN from public feed
