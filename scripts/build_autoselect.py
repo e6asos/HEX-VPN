@@ -70,8 +70,7 @@ def stream_settings(network, security, qs, vmess=None):
         result["security"] = "tls"
         tls = {
             "serverName": first(qs, "sni", (vmess or {}).get("sni", "")),
-            "fingerprint": first(qs, "fp", (vmess or {}).get("fp", "chrome")),
-            "allowInsecure": first(qs, "allowInsecure", "false").lower() in {"1", "true"}
+            "fingerprint": first(qs, "fp", (vmess or {}).get("fp", "chrome"))
         }
         alpn = first(qs, "alpn", (vmess or {}).get("alpn", ""))
         if alpn:
