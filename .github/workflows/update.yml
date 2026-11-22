@@ -16,59 +16,98 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Download hourly HTTP-verified feed
+      - name: Download upstream stable verified feed
         run: |
           curl --fail --location --retry 3 --retry-delay 5 \
-            "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt" \
+            "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/stable/v2ray-base64-0001.txt" \
             --output upstream.b64
 
-      - name: Build balanced HEX VPN list
+      - name: Build HEX VPN from stable verified nodes
         shell: bash
         run: |
           python3 - <<'PY'
-          import base64
+          import base64, json, re, urllib.parse, urllib.request
           from pathlib import Path
 
           raw = Path("upstream.b64").read_bytes()
-          decoded = base64.b64decode(b"".join(raw.split())).decode("utf-8", errors="strict")
-          protocols = ("vless", "vmess", "trojan", "ss", "hy2")
-          selected = []
-          seen = set()
+          decoded = base64.b64decode(b"".join(raw.split()), validate=True).decode("utf-8", errors="strict")
+          allowed = {"vless", "vmess", "trojan", "ss", "hysteria2", "hy2", "tuic"}
+          entries, seen, hosts = [], set(), []
 
-          for protocol in protocols:
-              candidates = []
-              for line in decoded.splitlines():
-                  line = line.strip()
-                  if not line.lower().startswith(protocol + "://"):
+          for line in decoded.splitlines():
+              line = line.strip()
+              if not line or "://" not in line:
+                  continue
+              scheme = line.split("://", 1)[0].lower()
+              if scheme not in allowed:
+                  continue
+              uri = line.split("#", 1)[0]
+              if uri in seen:
+                  continue
+              try:
+                  if scheme == "vmess":
+                      payload = uri.split("://", 1)[1]
+                      payload += "=" * (-len(payload) % 4)
+                      data = json.loads(base64.b64decode(payload).decode("utf-8"))
+                      host = data.get("add", "")
+                  else:
+                      host = urllib.parse.urlsplit(uri).hostname or ""
+                  if not host or any(c.isspace() for c in host):
                       continue
-                  uri = line.split("#", 1)[0]
-                  if any(ch.isspace() for ch in uri) or uri in seen:
-                      continue
-                  candidates.append(uri)
-              if len(candidates) < 4:
-                  raise SystemExit(f"Only {len(candidates)} {protocol} configs; refusing to publish.")
-              for uri in candidates[:4]:
-                  seen.add(uri)
-                  selected.append(uri)
+              except Exception:
+                  continue
+              seen.add(uri)
+              entries.append(uri)
+              hosts.append(host)
+              if len(entries) == 100:
+                  break
 
-          if len(selected) != 20:
-              raise SystemExit(f"Expected 20 unique configs, got {len(selected)}.")
+          if len(entries) < 20:
+              raise SystemExit(f"Only {len(entries)} stable unique configs; refusing to publish.")
+
+          # Country labels are best-effort GeoIP metadata; never alter connection credentials.
+          countries = {}
+          try:
+              req = urllib.request.Request(
+                  "http://ip-api.com/batch?fields=status,country,countryCode,query",
+                  data=json.dumps([{"query": h} for h in hosts]).encode(),
+                  headers={"Content-Type": "application/json", "User-Agent": "HEX-VPN-updater"},
+                  method="POST",
+              )
+              with urllib.request.urlopen(req, timeout=25) as response:
+                  geo = json.loads(response.read().decode())
+              for item in geo:
+                  if item.get("status") == "success":
+                      countries[item.get("query", "")] = (item.get("country", ""), item.get("countryCode", ""))
+          except Exception as exc:
+              print(f"GeoIP lookup unavailable; using neutral labels: {exc}")
+
+          flags = {}
+          for code in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+              flags[code] = chr(0x1F1E6 + ord(code) - ord("A"))
+
+          def flag(code):
+              return "".join(flags.get(c, "") for c in code.upper()) if len(code) == 2 else ""
 
           output = [
               "#profile-title: HEX VPN",
               "#profile-update-interval: 1",
               "#support-url: https://t.me/amvkm",
+              "#profile-web-page-url: https://github.com/e6asos/HEX-VPN",
           ]
-          for number, uri in enumerate(selected, 1):
-              output.append(f"{uri}#HEX%20%7C%20Server%20{number:02d}")
-
+          counts = {}
+          for i, (uri, host) in enumerate(zip(entries, hosts), 1):
+              country, code = countries.get(host, ("", ""))
+              if country:
+                  counts[country] = counts.get(country, 0) + 1
+                  label = f"HEX | {flag(code)} {country} {counts[country]:02d}".strip()
+              else:
+                  label = f"HEX | Server {i:02d}"
+              output.append(uri + "#" + urllib.parse.quote(label, safe=""))
           Path("subscription.txt").write_text("\n".join(output) + "\n", encoding="utf-8")
-          print("Published 20 upstream HTTP-verified configs: 4 each from VLESS, VMess, Trojan, Shadowsocks and Hysteria2.")
+          print(f"Published {len(entries)} unique nodes from upstream stable feed.")
           PY
-          rm upstream.b64
+          rm -f upstream.b64
 
       - name: Commit subscription if changed
         run: |
@@ -76,7 +115,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add subscription.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Update HEX VPN verified nodes"
+            git commit -m "Refresh HEX VPN stable verified nodes"
             git push
           else
             echo "Subscription is already up to date."
