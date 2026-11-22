@@ -53,6 +53,8 @@ def stream_settings(network, security, qs, vmess=None):
             result["xhttpSettings"]["host"] = host
 
     if security == "reality":
+        if network not in {"tcp", "xhttp", "grpc"}:
+            raise ValueError("Reality transport must be TCP/RAW, XHTTP or gRPC")
         result["security"] = "reality"
         reality = {
             "serverName": first(qs, "sni", first(qs, "serverName", "")),
