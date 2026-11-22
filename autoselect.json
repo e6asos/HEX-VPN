@@ -1,0 +1,1338 @@
+[
+  {
+    "remarks": "⚡ HEX | АВТОВЫБОР",
+    "meta": {
+      "serverDescription": "Автоматический выбор по задержке • HEX VPN"
+    },
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "listen": "127.0.0.1",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "enabled": true,
+          "destOverride": [
+            "http",
+            "tls",
+            "quic"
+          ],
+          "routeOnly": true
+        }
+      },
+      {
+        "tag": "http-in",
+        "listen": "127.0.0.1",
+        "port": 10809,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": false
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "185.213.23.63",
+              "port": 990,
+              "method": "chacha20-ietf-poly1305",
+              "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            }
+          ]
+        },
+        "tag": "hex-node-001"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "47.253.226.114",
+              "port": 443,
+              "users": [
+                {
+                  "id": "055a1ce8-2a16-4a0d-a2c2-22826c9b2413",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.cloudflare.com",
+            "fingerprint": "chrome",
+            "publicKey": "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc",
+            "shortId": ""
+          }
+        },
+        "tag": "hex-node-002"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "5.253.30.99",
+              "port": 40443,
+              "users": [
+                {
+                  "id": "511c1563-2cb6-4064-abc6-a59ee49818a8",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "deepl.com",
+            "fingerprint": "chrome",
+            "publicKey": "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0",
+            "shortId": "88b6"
+          }
+        },
+        "tag": "hex-node-003"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "129.150.59.74",
+              "port": 14384,
+              "method": "2022-blake3-aes-256-gcm",
+              "password": "sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA="
+            }
+          ]
+        },
+        "tag": "hex-node-004"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.234",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "4a2rfixophdjffa8KVA4Aa"
+            }
+          ]
+        },
+        "tag": "hex-node-005"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "103.11.76.248",
+              "port": 28679,
+              "method": "2022-blake3-aes-128-gcm",
+              "password": "NzJlOTQ5NWYtM2ZkYi00Cg=="
+            }
+          ]
+        },
+        "tag": "hex-node-006"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "139.162.27.96",
+              "port": 2096,
+              "users": [
+                {
+                  "id": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "wsSettings": {
+            "path": "/free-server.techsonic.dev",
+            "headers": {
+              "Host": "free-server.techsonic.dev"
+            }
+          },
+          "tlsSettings": {
+            "serverName": "free-server.techsonic.dev",
+            "fingerprint": "chrome",
+            "allowInsecure": false
+          }
+        },
+        "tag": "hex-node-007"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "51.89.194.151",
+              "port": 2053,
+              "users": [
+                {
+                  "id": "8e790f25-1d71-4601-9fb0-d503931dcfca",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.apple.com",
+            "fingerprint": "chrome",
+            "publicKey": "xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0",
+            "shortId": "d051f678212f9d54"
+          }
+        },
+        "tag": "hex-node-008"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "195.123.235.177",
+              "port": 443,
+              "users": [
+                {
+                  "id": "729dd5f2-f5ff-4070-8c10-863eceded0b1",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "gateway.icloud.com",
+            "fingerprint": "chrome",
+            "publicKey": "5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI",
+            "shortId": "c85d029f5e8eb393"
+          }
+        },
+        "tag": "hex-node-009"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "46.137.202.178",
+              "port": 12512,
+              "users": [
+                {
+                  "id": "2a6c617d-98e4-49c3-95ab-76f02fcf0150",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "www.intel.com",
+            "fingerprint": "chrome",
+            "publicKey": "sO0RBMr_l8TLtZaYBX8n3NdI9AtaugUqJpCR1szNsyA",
+            "shortId": "e692a8250d2e2fd0"
+          }
+        },
+        "tag": "hex-node-010"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "146.235.16.130",
+              "port": 19825,
+              "users": [
+                {
+                  "id": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
+                  "encryption": "none",
+                  "flow": "xtls-rprx-vision"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "sg2-8sb.6121999.dpdns.org",
+            "fingerprint": "chrome",
+            "publicKey": "GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI",
+            "shortId": "6ba85179e30d4fc2"
+          }
+        },
+        "tag": "hex-node-011"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.54",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-012"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.176",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-013"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.199",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-014"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.82",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-015"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.170",
+              "port": 443,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-016"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.202",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-017"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.216",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-018"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "p141.panda001.net",
+              "port": 4652,
+              "method": "aes-256-cfb",
+              "password": "qwerREWQ@@"
+            }
+          ]
+        },
+        "tag": "hex-node-019"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.61",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-020"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.7",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-021"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.11",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-022"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "211.178.105.134",
+              "port": 6123,
+              "method": "aes-256-cfb",
+              "password": "qwerREWQ@@"
+            }
+          ]
+        },
+        "tag": "hex-node-023"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.201",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-024"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.204",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-025"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.3",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-026"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "141.164.45.187",
+              "port": 7001,
+              "method": "aes-256-gcm",
+              "password": "RexnBgU7EV5ADxG"
+            }
+          ]
+        },
+        "tag": "hex-node-027"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.193",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-028"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "195.238.126.20",
+              "port": 9086,
+              "method": "aes-256-cfb",
+              "password": "37Z4TFCYhfxcpc9Q"
+            }
+          ]
+        },
+        "tag": "hex-node-029"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.34",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-030"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.179",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-031"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "37.19.198.243",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-032"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.26",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-033"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.157",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-034"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "15.204.246.107",
+              "port": 8888,
+              "method": "aes-256-gcm",
+              "password": "Y6R9pAtvxxzmGC"
+            }
+          ]
+        },
+        "tag": "hex-node-035"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "141.164.45.187",
+              "port": 8000,
+              "method": "aes-256-gcm",
+              "password": "KixLvKzwjekG00rm"
+            }
+          ]
+        },
+        "tag": "hex-node-036"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.202",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-037"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.17",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-038"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.171",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-039"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.132",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-040"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "37.19.198.236",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-041"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.212",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "QCXDxuDlTTMD7jtgHUjIoj"
+            }
+          ]
+        },
+        "tag": "hex-node-042"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "156.146.38.169",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-043"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.149",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-044"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "141.98.101.181",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-045"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.179",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-046"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.2",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-047"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.151",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-048"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.147",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-049"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "149.22.87.204",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-050"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "195.238.126.20",
+              "port": 9068,
+              "method": "aes-256-cfb",
+              "password": "mwgRg9hRq3b4Qnwb"
+            }
+          ]
+        },
+        "tag": "hex-node-051"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.46",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-052"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "149.22.95.183",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-053"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.156",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-054"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "37.19.198.160",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-055"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.28",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-056"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "149.22.87.240",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-057"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.225",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-058"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.235",
+              "port": 443,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-059"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "149.22.87.241",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-060"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "57.129.113.16",
+              "port": 8388,
+              "method": "chacha20-ietf-poly1305",
+              "password": "NcAXc0UZI6yQJE1p8QmOv8"
+            }
+          ]
+        },
+        "tag": "hex-node-061"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.220",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-062"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.223",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-063"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.190",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-064"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.186",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-065"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.155",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-066"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "84.247.155.196",
+              "port": 443,
+              "method": "aes-256-gcm",
+              "password": "3eOFeNssde7PYYMv"
+            }
+          ]
+        },
+        "tag": "hex-node-067"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.39",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-068"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "173.244.56.6",
+              "port": 443,
+              "method": "aes-128-gcm",
+              "password": "shadowsocks"
+            }
+          ]
+        },
+        "tag": "hex-node-069"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.47",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-070"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.184",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-071"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.162",
+              "port": 443,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-072"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.212",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-073"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "102.133.165.160",
+              "port": 16233,
+              "method": "chacha20-ietf-poly1305",
+              "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+            }
+          ]
+        },
+        "tag": "hex-node-074"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.69",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-075"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "193.29.139.197",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-076"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.219",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-077"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.213",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-078"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.195",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-079"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.175",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+            }
+          ]
+        },
+        "tag": "hex-node-080"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.183",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-081"
+      },
+      {
+        "protocol": "shadowsocks",
+        "settings": {
+          "servers": [
+            {
+              "address": "82.38.31.217",
+              "port": 8080,
+              "method": "chacha20-ietf-poly1305",
+              "password": "k1dBOmOB4oqi7Ump37a1bQ"
+            }
+          ]
+        },
+        "tag": "hex-node-082"
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      },
+      {
+        "tag": "block",
+        "protocol": "blackhole"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "type": "field",
+          "network": "tcp,udp",
+          "balancerTag": "hex-auto"
+        }
+      ],
+      "balancers": [
+        {
+          "tag": "hex-auto",
+          "selector": [
+            "hex-node-"
+          ],
+          "fallbackTag": "block",
+          "strategy": {
+            "type": "leastPing"
+          }
+        }
+      ]
+    },
+    "observatory": {
+      "subjectSelector": [
+        "hex-node-"
+      ],
+      "probeUrl": "https://www.gstatic.com/generate_204",
+      "probeInterval": "30s",
+      "enableConcurrency": true
+    },
+    "stats": {}
+  }
+]
