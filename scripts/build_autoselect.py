@@ -71,8 +71,8 @@ def stream_settings(network, security, qs, vmess=None):
     elif security == "tls" or (vmess and str(vmess.get("tls", "")).lower() in {"tls", "true", "1"}):
         result["security"] = "tls"
         tls = {
-            "serverName": first(qs, "sni", (vmess or {}).get("sni", "")),
-            "fingerprint": first(qs, "fp", (vmess or {}).get("fp", "chrome"))
+            "serverName": first(qs, "sni", (vmess or {}).get("sni") or (vmess or {}).get("host") or ""),
+            "fingerprint": first(qs, "fp", (vmess or {}).get("fp") or "chrome")
         }
         alpn = first(qs, "alpn", (vmess or {}).get("alpn", ""))
         if alpn:
@@ -97,6 +97,8 @@ def convert(uri):
         stream = stream_settings(first(qs, "type", "tcp"), first(qs, "security", "none"), qs)
         if stream.get("security") not in {"tls", "reality"}:
             raise ValueError("VLESS without TLS/Reality is not accepted by Xray 26.9.9")
+        if stream.get("security") == "tls" and not stream.get("tlsSettings", {}).get("serverName"):
+            stream["tlsSettings"]["serverName"] = host
         outbound = {
             "protocol": "vless",
             "settings": {"vnext": [{"address": host, "port": port, "users": [user]}]},
@@ -113,16 +115,21 @@ def convert(uri):
         user = {"id": user_id, "alterId": int(data.get("aid", 0)), "security": data.get("scy", "auto")}
         net = data.get("net", "tcp")
         vmess_qs = {
-            "sni": [data.get("sni", "")],
-            "fp": [data.get("fp", "chrome")],
-            "host": [data.get("host", "")],
-            "path": [data.get("path", "/")],
+            "sni": [data.get("sni") or data.get("host") or ""],
+            "fp": [data.get("fp") or "chrome"],
+            "host": [data.get("host") or ""],
+            "path": [(data.get("path") or "/").replace("#", "%23")],
             "alpn": [data.get("alpn", "")]
         }
         outbound = {
             "protocol": "vmess",
             "settings": {"vnext": [{"address": host, "port": port, "users": [user]}]},
-            "streamSettings": stream_settings(net, "tls" if data.get("tls") else "none", vmess_qs, data)
+            "streamSettings": stream_settings(
+                net,
+                "tls" if str(data.get("tls", "")).lower() in {"tls", "true", "1"} else "none",
+                vmess_qs,
+                data
+            )
         }
         name = data.get("ps") or name
     elif scheme == "trojan":
@@ -130,10 +137,13 @@ def convert(uri):
         password = unquote(parsed.username or "")
         if not host or not password:
             raise ValueError("missing Trojan host/password")
+        stream = stream_settings(first(qs, "type", "tcp"), first(qs, "security", "tls"), qs)
+        if stream.get("security") == "tls" and not stream.get("tlsSettings", {}).get("serverName"):
+            stream["tlsSettings"]["serverName"] = host
         outbound = {
             "protocol": "trojan",
             "settings": {"servers": [{"address": host, "port": port, "password": password}]},
-            "streamSettings": stream_settings(first(qs, "type", "tcp"), first(qs, "security", "tls"), qs)
+            "streamSettings": stream
         }
     elif scheme == "ss":
         if "plugin" in qs:
@@ -165,7 +175,7 @@ def convert(uri):
             raise ValueError("missing Shadowsocks host")
         outbound = {
             "protocol": "shadowsocks",
-            "settings": {"servers": [{"address": host, "port": port, "method": method, "password": password}]}
+            "settings": {"servers": [{"address": host, "port": port, "method": method.lower(), "password": password}]}
         }
     else:
         raise ValueError("unsupported protocol")
