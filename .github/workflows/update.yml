@@ -113,13 +113,31 @@ jobs:
               "#profile-web-page-url: https://github.com/e6asos/HEX-VPN",
           ]
           counts = {}
+          country_names = {
+              "Germany": "Германия", "Netherlands": "Нидерланды", "France": "Франция",
+              "Sweden": "Швеция", "United Kingdom": "Великобритания",
+              "United States": "США", "United States of America": "США",
+              "Finland": "Финляндия", "Poland": "Польша", "Switzerland": "Швейцария",
+              "Canada": "Канада", "Japan": "Япония", "Singapore": "Сингапур",
+              "Turkey": "Турция", "Russia": "Россия", "Austria": "Австрия",
+              "Belgium": "Бельгия", "Czechia": "Чехия", "Czech Republic": "Чехия",
+              "Denmark": "Дания", "Estonia": "Эстония", "Spain": "Испания",
+              "Italy": "Италия", "Latvia": "Латвия", "Lithuania": "Литва",
+              "Norway": "Норвегия", "Romania": "Румыния", "Ukraine": "Украина",
+              "Australia": "Австралия", "Brazil": "Бразилия", "Hong Kong": "Гонконг",
+              "Ireland": "Ирландия", "Luxembourg": "Люксембург",
+              "Moldova": "Молдова", "Portugal": "Португалия",
+              "Slovakia": "Словакия", "South Korea": "Южная Корея",
+              "Taiwan": "Тайвань", "United Arab Emirates": "ОАЭ",
+          }
           for i, (uri, host) in enumerate(zip(entries, hosts), 1):
               country, code = countries.get(host, ("", ""))
               if country:
                   counts[country] = counts.get(country, 0) + 1
-                  label = f"HEX | {flag(code)} {country} {counts[country]:02d}".strip()
+                  display_country = country_names.get(country, country)
+                  label = f"HEX | {flag(code)} {display_country} {counts[country]:02d}".strip()
               else:
-                  label = f"HEX | Server {i:02d}"
+                  label = f"HEX | Сервер {i:02d}"
               output.append(uri + "#" + urllib.parse.quote(label, safe=""))
           Path("subscription.txt").write_text("\n".join(output) + "\n", encoding="utf-8")
           print(f"Published {len(entries)} unique nodes from upstream stable feed.")
