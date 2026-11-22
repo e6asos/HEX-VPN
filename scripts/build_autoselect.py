@@ -93,10 +93,13 @@ def convert(uri):
         flow = first(qs, "flow")
         if flow:
             user["flow"] = flow
+        stream = stream_settings(first(qs, "type", "tcp"), first(qs, "security", "none"), qs)
+        if stream.get("security") not in {"tls", "reality"}:
+            raise ValueError("VLESS without TLS/Reality is not accepted by Xray 26.9.9")
         outbound = {
             "protocol": "vless",
             "settings": {"vnext": [{"address": host, "port": port, "users": [user]}]},
-            "streamSettings": stream_settings(first(qs, "type", "tcp"), first(qs, "security", "none"), qs)
+            "streamSettings": stream
         }
     elif scheme == "vmess":
         payload = uri.split("://", 1)[1].split("#", 1)[0]
