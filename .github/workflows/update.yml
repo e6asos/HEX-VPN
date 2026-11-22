@@ -115,6 +115,21 @@ jobs:
       - name: Build single-entry HEX AutoSelect config
         run: python3 scripts/build_autoselect.py subscription.txt autoselect.json
 
+      - name: Validate AutoSelect with Happ-compatible Xray core
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          configs = json.loads(Path("autoselect.json").read_text(encoding="utf-8"))
+          if not isinstance(configs, list) or len(configs) != 1:
+              raise SystemExit("Happ AutoSelect must contain exactly one Xray config")
+          Path("autoselect-xray-test.json").write_text(
+              json.dumps(configs[0], ensure_ascii=False), encoding="utf-8"
+          )
+          PY
+          docker run --rm -v "$PWD:/config:ro" ghcr.io/xtls/xray-core:26.9.9 run -test -c /config/autoselect-xray-test.json
+          rm -f autoselect-xray-test.json
+
       - name: Commit subscription if changed
         run: |
           git config user.name "github-actions[bot]"
