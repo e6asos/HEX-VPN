@@ -81,19 +81,23 @@ jobs:
           # Country labels are best-effort GeoIP metadata; never alter connection credentials.
           countries = {}
           try:
-              req = urllib.request.Request(
-                  "http://ip-api.com/batch?fields=status,country,countryCode,query",
-                  data=json.dumps([{"query": h} for h in hosts]).encode(),
-                  headers={"Content-Type": "application/json", "User-Agent": "HEX-VPN-updater"},
-                  method="POST",
-              )
-              with urllib.request.urlopen(req, timeout=25) as response:
-                  geo = json.loads(response.read().decode())
-              for item in geo:
-                  if item.get("status") == "success":
-                      countries[item.get("query", "")] = (item.get("country", ""), item.get("countryCode", ""))
+              # ip-api batch accepts at most 100 hosts per request.
+              for offset in range(0, len(hosts), 90):
+                  batch = hosts[offset:offset + 90]
+                  req = urllib.request.Request(
+                      "http://ip-api.com/batch?fields=status,country,countryCode,query",
+                      data=json.dumps([{"query": h} for h in batch]).encode(),
+                      headers={"Content-Type": "application/json", "User-Agent": "HEX-VPN-updater"},
+                      method="POST",
+                  )
+                  with urllib.request.urlopen(req, timeout=25) as response:
+                      geo = json.loads(response.read().decode())
+                  for item in geo:
+                      if item.get("status") == "success":
+                          countries[item.get("query", "")] = (item.get("country", ""), item.get("countryCode", ""))
+              print(f"GeoIP resolved countries for {len(countries)}/{len(set(hosts))} unique endpoints.")
           except Exception as exc:
-              print(f"GeoIP lookup unavailable; using neutral labels: {exc}")
+              print(f"GeoIP lookup partially unavailable; unresolved nodes will use neutral labels: {exc}")
 
           flags = {}
           for code in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
