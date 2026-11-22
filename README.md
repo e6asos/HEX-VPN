@@ -1,2 +1,2 @@
 # HEX-VPN
-Free public vpn subsxription | by: @amvkm
+Free public vpn subscription | by: @amvkm
