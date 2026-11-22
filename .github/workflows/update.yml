@@ -16,6 +16,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Download upstream stable verified feed
         run: |
           curl --fail --location --retry 3 --retry-delay 5 \
