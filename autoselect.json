@@ -403,20 +403,6 @@
         "settings": {
           "servers": [
             {
-              "address": "p141.panda001.net",
-              "port": 4652,
-              "method": "aes-256-cfb",
-              "password": "qwerREWQ@@"
-            }
-          ]
-        },
-        "tag": "hex-node-019"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
               "address": "82.38.31.61",
               "port": 8080,
               "method": "chacha20-ietf-poly1305",
@@ -424,7 +410,7 @@
             }
           ]
         },
-        "tag": "hex-node-020"
+        "tag": "hex-node-019"
       },
       {
         "protocol": "shadowsocks",
@@ -438,7 +424,7 @@
             }
           ]
         },
-        "tag": "hex-node-021"
+        "tag": "hex-node-020"
       },
       {
         "protocol": "shadowsocks",
@@ -452,21 +438,7 @@
             }
           ]
         },
-        "tag": "hex-node-022"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
-              "address": "211.178.105.134",
-              "port": 6123,
-              "method": "aes-256-cfb",
-              "password": "qwerREWQ@@"
-            }
-          ]
-        },
-        "tag": "hex-node-023"
+        "tag": "hex-node-021"
       },
       {
         "protocol": "shadowsocks",
@@ -480,7 +452,7 @@
             }
           ]
         },
-        "tag": "hex-node-024"
+        "tag": "hex-node-022"
       },
       {
         "protocol": "shadowsocks",
@@ -494,7 +466,7 @@
             }
           ]
         },
-        "tag": "hex-node-025"
+        "tag": "hex-node-023"
       },
       {
         "protocol": "shadowsocks",
@@ -508,7 +480,7 @@
             }
           ]
         },
-        "tag": "hex-node-026"
+        "tag": "hex-node-024"
       },
       {
         "protocol": "shadowsocks",
@@ -522,7 +494,7 @@
             }
           ]
         },
-        "tag": "hex-node-027"
+        "tag": "hex-node-025"
       },
       {
         "protocol": "shadowsocks",
@@ -536,21 +508,7 @@
             }
           ]
         },
-        "tag": "hex-node-028"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
-              "address": "195.238.126.20",
-              "port": 9086,
-              "method": "aes-256-cfb",
-              "password": "37Z4TFCYhfxcpc9Q"
-            }
-          ]
-        },
-        "tag": "hex-node-029"
+        "tag": "hex-node-026"
       },
       {
         "protocol": "shadowsocks",
@@ -564,7 +522,7 @@
             }
           ]
         },
-        "tag": "hex-node-030"
+        "tag": "hex-node-027"
       },
       {
         "protocol": "shadowsocks",
@@ -578,7 +536,7 @@
             }
           ]
         },
-        "tag": "hex-node-031"
+        "tag": "hex-node-028"
       },
       {
         "protocol": "shadowsocks",
@@ -592,7 +550,7 @@
             }
           ]
         },
-        "tag": "hex-node-032"
+        "tag": "hex-node-029"
       },
       {
         "protocol": "shadowsocks",
@@ -606,7 +564,7 @@
             }
           ]
         },
-        "tag": "hex-node-033"
+        "tag": "hex-node-030"
       },
       {
         "protocol": "shadowsocks",
@@ -620,7 +578,7 @@
             }
           ]
         },
-        "tag": "hex-node-034"
+        "tag": "hex-node-031"
       },
       {
         "protocol": "shadowsocks",
@@ -634,7 +592,7 @@
             }
           ]
         },
-        "tag": "hex-node-035"
+        "tag": "hex-node-032"
       },
       {
         "protocol": "shadowsocks",
@@ -648,7 +606,7 @@
             }
           ]
         },
-        "tag": "hex-node-036"
+        "tag": "hex-node-033"
       },
       {
         "protocol": "shadowsocks",
@@ -662,7 +620,7 @@
             }
           ]
         },
-        "tag": "hex-node-037"
+        "tag": "hex-node-034"
       },
       {
         "protocol": "shadowsocks",
@@ -676,7 +634,7 @@
             }
           ]
         },
-        "tag": "hex-node-038"
+        "tag": "hex-node-035"
       },
       {
         "protocol": "shadowsocks",
@@ -690,7 +648,7 @@
             }
           ]
         },
-        "tag": "hex-node-039"
+        "tag": "hex-node-036"
       },
       {
         "protocol": "shadowsocks",
@@ -704,7 +662,7 @@
             }
           ]
         },
-        "tag": "hex-node-040"
+        "tag": "hex-node-037"
       },
       {
         "protocol": "shadowsocks",
@@ -718,7 +676,7 @@
             }
           ]
         },
-        "tag": "hex-node-041"
+        "tag": "hex-node-038"
       },
       {
         "protocol": "shadowsocks",
@@ -732,7 +690,7 @@
             }
           ]
         },
-        "tag": "hex-node-042"
+        "tag": "hex-node-039"
       },
       {
         "protocol": "shadowsocks",
@@ -746,7 +704,7 @@
             }
           ]
         },
-        "tag": "hex-node-043"
+        "tag": "hex-node-040"
       },
       {
         "protocol": "shadowsocks",
@@ -760,7 +718,7 @@
             }
           ]
         },
-        "tag": "hex-node-044"
+        "tag": "hex-node-041"
       },
       {
         "protocol": "shadowsocks",
@@ -774,7 +732,7 @@
             }
           ]
         },
-        "tag": "hex-node-045"
+        "tag": "hex-node-042"
       },
       {
         "protocol": "shadowsocks",
@@ -788,7 +746,7 @@
             }
           ]
         },
-        "tag": "hex-node-046"
+        "tag": "hex-node-043"
       },
       {
         "protocol": "shadowsocks",
@@ -802,7 +760,7 @@
             }
           ]
         },
-        "tag": "hex-node-047"
+        "tag": "hex-node-044"
       },
       {
         "protocol": "shadowsocks",
@@ -816,7 +774,7 @@
             }
           ]
         },
-        "tag": "hex-node-048"
+        "tag": "hex-node-045"
       },
       {
         "protocol": "shadowsocks",
@@ -830,7 +788,7 @@
             }
           ]
         },
-        "tag": "hex-node-049"
+        "tag": "hex-node-046"
       },
       {
         "protocol": "shadowsocks",
@@ -844,21 +802,7 @@
             }
           ]
         },
-        "tag": "hex-node-050"
-      },
-      {
-        "protocol": "shadowsocks",
-        "settings": {
-          "servers": [
-            {
-              "address": "195.238.126.20",
-              "port": 9068,
-              "method": "aes-256-cfb",
-              "password": "mwgRg9hRq3b4Qnwb"
-            }
-          ]
-        },
-        "tag": "hex-node-051"
+        "tag": "hex-node-047"
       },
       {
         "protocol": "shadowsocks",
@@ -872,7 +816,7 @@
             }
           ]
         },
-        "tag": "hex-node-052"
+        "tag": "hex-node-048"
       },
       {
         "protocol": "shadowsocks",
@@ -886,7 +830,7 @@
             }
           ]
         },
-        "tag": "hex-node-053"
+        "tag": "hex-node-049"
       },
       {
         "protocol": "shadowsocks",
@@ -900,7 +844,7 @@
             }
           ]
         },
-        "tag": "hex-node-054"
+        "tag": "hex-node-050"
       },
       {
         "protocol": "shadowsocks",
@@ -914,7 +858,7 @@
             }
           ]
         },
-        "tag": "hex-node-055"
+        "tag": "hex-node-051"
       },
       {
         "protocol": "shadowsocks",
@@ -928,7 +872,7 @@
             }
           ]
         },
-        "tag": "hex-node-056"
+        "tag": "hex-node-052"
       },
       {
         "protocol": "shadowsocks",
@@ -942,7 +886,7 @@
             }
           ]
         },
-        "tag": "hex-node-057"
+        "tag": "hex-node-053"
       },
       {
         "protocol": "shadowsocks",
@@ -956,7 +900,7 @@
             }
           ]
         },
-        "tag": "hex-node-058"
+        "tag": "hex-node-054"
       },
       {
         "protocol": "shadowsocks",
@@ -970,7 +914,7 @@
             }
           ]
         },
-        "tag": "hex-node-059"
+        "tag": "hex-node-055"
       },
       {
         "protocol": "shadowsocks",
@@ -984,7 +928,7 @@
             }
           ]
         },
-        "tag": "hex-node-060"
+        "tag": "hex-node-056"
       },
       {
         "protocol": "shadowsocks",
@@ -998,7 +942,7 @@
             }
           ]
         },
-        "tag": "hex-node-061"
+        "tag": "hex-node-057"
       },
       {
         "protocol": "shadowsocks",
@@ -1012,7 +956,7 @@
             }
           ]
         },
-        "tag": "hex-node-062"
+        "tag": "hex-node-058"
       },
       {
         "protocol": "shadowsocks",
@@ -1026,7 +970,7 @@
             }
           ]
         },
-        "tag": "hex-node-063"
+        "tag": "hex-node-059"
       },
       {
         "protocol": "shadowsocks",
@@ -1040,7 +984,7 @@
             }
           ]
         },
-        "tag": "hex-node-064"
+        "tag": "hex-node-060"
       },
       {
         "protocol": "shadowsocks",
@@ -1054,7 +998,7 @@
             }
           ]
         },
-        "tag": "hex-node-065"
+        "tag": "hex-node-061"
       },
       {
         "protocol": "shadowsocks",
@@ -1068,7 +1012,7 @@
             }
           ]
         },
-        "tag": "hex-node-066"
+        "tag": "hex-node-062"
       },
       {
         "protocol": "shadowsocks",
@@ -1082,7 +1026,7 @@
             }
           ]
         },
-        "tag": "hex-node-067"
+        "tag": "hex-node-063"
       },
       {
         "protocol": "shadowsocks",
@@ -1096,7 +1040,7 @@
             }
           ]
         },
-        "tag": "hex-node-068"
+        "tag": "hex-node-064"
       },
       {
         "protocol": "shadowsocks",
@@ -1110,7 +1054,7 @@
             }
           ]
         },
-        "tag": "hex-node-069"
+        "tag": "hex-node-065"
       },
       {
         "protocol": "shadowsocks",
@@ -1124,7 +1068,7 @@
             }
           ]
         },
-        "tag": "hex-node-070"
+        "tag": "hex-node-066"
       },
       {
         "protocol": "shadowsocks",
@@ -1138,7 +1082,7 @@
             }
           ]
         },
-        "tag": "hex-node-071"
+        "tag": "hex-node-067"
       },
       {
         "protocol": "shadowsocks",
@@ -1152,7 +1096,7 @@
             }
           ]
         },
-        "tag": "hex-node-072"
+        "tag": "hex-node-068"
       },
       {
         "protocol": "shadowsocks",
@@ -1166,7 +1110,7 @@
             }
           ]
         },
-        "tag": "hex-node-073"
+        "tag": "hex-node-069"
       },
       {
         "protocol": "shadowsocks",
@@ -1180,7 +1124,7 @@
             }
           ]
         },
-        "tag": "hex-node-074"
+        "tag": "hex-node-070"
       },
       {
         "protocol": "shadowsocks",
@@ -1194,7 +1138,7 @@
             }
           ]
         },
-        "tag": "hex-node-075"
+        "tag": "hex-node-071"
       },
       {
         "protocol": "shadowsocks",
@@ -1208,7 +1152,7 @@
             }
           ]
         },
-        "tag": "hex-node-076"
+        "tag": "hex-node-072"
       },
       {
         "protocol": "shadowsocks",
@@ -1222,7 +1166,7 @@
             }
           ]
         },
-        "tag": "hex-node-077"
+        "tag": "hex-node-073"
       },
       {
         "protocol": "shadowsocks",
@@ -1236,7 +1180,7 @@
             }
           ]
         },
-        "tag": "hex-node-078"
+        "tag": "hex-node-074"
       },
       {
         "protocol": "shadowsocks",
@@ -1250,7 +1194,7 @@
             }
           ]
         },
-        "tag": "hex-node-079"
+        "tag": "hex-node-075"
       },
       {
         "protocol": "shadowsocks",
@@ -1264,7 +1208,7 @@
             }
           ]
         },
-        "tag": "hex-node-080"
+        "tag": "hex-node-076"
       },
       {
         "protocol": "shadowsocks",
@@ -1278,7 +1222,7 @@
             }
           ]
         },
-        "tag": "hex-node-081"
+        "tag": "hex-node-077"
       },
       {
         "protocol": "shadowsocks",
@@ -1292,7 +1236,7 @@
             }
           ]
         },
-        "tag": "hex-node-082"
+        "tag": "hex-node-078"
       },
       {
         "tag": "direct",
