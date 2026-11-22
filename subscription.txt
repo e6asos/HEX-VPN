@@ -1,1 +1,2 @@
-
+#profile-title: HEX VPN
+#profile-update-interval: 6
