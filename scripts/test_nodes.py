@@ -82,13 +82,22 @@ def finish():
     with concurrent.futures.ThreadPoolExecutor(max_workers=40) as pool:
         results = list(pool.map(check_one, mapping))
     passed = {tag for tag, ok, _ in results if ok}
-    nodes = [
+    tested = [
         x for x in profile.get("outbounds", [])
         if x.get("tag", "").startswith("hex-node-") and x.get("tag") in passed
     ]
-    print(f"End-to-end HTTPS: {len(nodes)}/{len(mapping)} individual nodes passed.")
+    # Prefer encrypted TLS/REALITY transports; do not publish bare Shadowsocks
+    # as the primary solution for restrictive mobile networks.
+    nodes = [
+        x for x in tested
+        if x.get("protocol") in {"vless", "vmess", "trojan"}
+        and x.get("streamSettings", {}).get("security") in {"tls", "reality"}
+    ]
+    priority = {"vless": 0, "trojan": 1, "vmess": 2}
+    nodes.sort(key=lambda x: (priority.get(x.get("protocol"), 9), x.get("tag", "")))
+    print(f"End-to-end HTTPS: {len(tested)}/{len(mapping)} nodes passed; {len(nodes)} TLS/REALITY nodes retained.")
     if not nodes:
-        raise SystemExit("No node passed real HTTPS checks; refusing to publish a dead AutoSelect.")
+        raise SystemExit("No TLS/REALITY node passed real HTTPS checks; refusing to publish.")
     tags = [x["tag"] for x in nodes]
     profile["outbounds"] = nodes + [
         {"tag": "direct", "protocol": "freedom"},
