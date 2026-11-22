@@ -9,6 +9,8 @@ from pathlib import Path
 CONFIG = Path("autoselect.json")
 TEST_CONFIG = Path("node-test-config.json")
 MAP = Path("node-test-map.json")
+SOURCE_MAP = Path("node-source-map.json")
+SUBSCRIPTION = Path("subscription.txt")
 BASE_PORT = 21000
 MAX_NODES = 120
 URLS = (
@@ -114,7 +116,23 @@ def finish():
         f"HEX VPN • {len(nodes)} серверов прошли индивидуальный HTTPS-тест"
     )
     CONFIG.write_text(json.dumps([profile], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Published only individually HTTPS-tested nodes.")
+
+    # Keep the regular share-link subscription in sync with the exact same
+    # individually HTTPS-tested TLS/REALITY nodes used by AutoSelect.
+    source_map = json.loads(SOURCE_MAP.read_text(encoding="utf-8"))
+    source_lines = {item["tag"]: item["line"] for item in source_map}
+    selected_lines = [source_lines[tag] for tag in tags if tag in source_lines]
+    if len(selected_lines) < 3:
+        raise SystemExit(
+            f"Only {len(selected_lines)} individually tested subscription nodes; refusing to publish."
+        )
+    current_lines = SUBSCRIPTION.read_text(encoding="utf-8").splitlines()
+    headers = [line for line in current_lines if not line.strip() or line.lstrip().startswith("#")]
+    SUBSCRIPTION.write_text("\n".join(headers + selected_lines) + "\n", encoding="utf-8")
+    print(
+        f"Published {len(nodes)} individually HTTPS-tested TLS/REALITY nodes "
+        "to both AutoSelect and the regular HEX VPN subscription."
+    )
 
 if __name__ == "__main__":
     if len(sys.argv) != 2 or sys.argv[1] not in {"prepare", "finish"}:
