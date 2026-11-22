@@ -1,6 +1,10 @@
 name: Update HEX VPN
 
 on:
+  push:
+    paths:
+      - ".github/workflows/update.yml"
+      - "scripts/build_autoselect.py"
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
@@ -19,13 +23,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download upstream stable verified feed
+      - name: Download public community node feed
         run: |
           curl --fail --location --retry 3 --retry-delay 5 \
             "https://radarhub.top/v2ray.txt" \
             --output upstream.b64
 
-      - name: Build HEX VPN from stable verified nodes
+      - name: Build HEX VPN from public feed
         shell: bash
         run: |
           python3 - <<'PY'
@@ -112,6 +116,68 @@ jobs:
           PY
           rm -f upstream.b64
 
+      - name: Remove unsupported and unreachable TCP nodes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64, json, socket
+          from concurrent.futures import ThreadPoolExecutor
+          from pathlib import Path
+          from urllib.parse import urlsplit
+
+          path = Path("subscription.txt")
+          lines = path.read_text(encoding="utf-8").splitlines()
+          headers = [x for x in lines if not x.strip() or x.lstrip().startswith("#")]
+          candidates = []
+          for line in lines:
+              line = line.strip()
+              if not line or line.startswith("#") or "://" not in line:
+                  continue
+              scheme = line.split("://", 1)[0].lower()
+              if scheme not in {"vless", "vmess", "trojan", "ss"}:
+                  continue
+              uri = line.split("#", 1)[0]
+              try:
+                  if scheme == "vmess":
+                      payload = uri.split("://", 1)[1]
+                      payload += "=" * (-len(payload) % 4)
+                      data = json.loads(base64.urlsafe_b64decode(payload).decode("utf-8"))
+                      host, port = data.get("add"), int(data.get("port"))
+                  elif scheme == "ss":
+                      raw = uri.split("://", 1)[1]
+                      if "@" not in raw:
+                          raw += "=" * (-len(raw) % 4)
+                          raw = base64.urlsafe_b64decode(raw).decode("utf-8")
+                      endpoint = raw.rsplit("@", 1)[1].split("?", 1)[0]
+                      parsed = urlsplit("ss://" + endpoint)
+                      host, port = parsed.hostname, parsed.port
+                  else:
+                      parsed = urlsplit(uri)
+                      host, port = parsed.hostname, parsed.port
+                  if host and port and 1 <= int(port) <= 65535:
+                      candidates.append((line, host, int(port)))
+              except Exception:
+                  continue
+
+          def reachable(item):
+              line, host, port = item
+              try:
+                  with socket.create_connection((host, port), timeout=2.5):
+                      return line, True
+              except Exception:
+                  return line, False
+
+          with ThreadPoolExecutor(max_workers=80) as pool:
+              results = list(pool.map(reachable, candidates))
+          alive = {line for line, ok in results if ok}
+          kept = [line for line, host, port in candidates if line in alive]
+          dropped = len(candidates) - len(kept)
+          if len(kept) < 5:
+              raise SystemExit(f"Only {len(kept)} TCP-reachable supported nodes; refusing to publish.")
+          path.write_text("\n".join(headers + kept) + "\n", encoding="utf-8")
+          print(f"TCP check: {len(kept)} reachable supported nodes kept; {dropped} unreachable/invalid or unsupported nodes removed.")
+          PY
+
       - name: Build single-entry HEX AutoSelect config
         run: python3 scripts/build_autoselect.py subscription.txt autoselect.json
 
@@ -136,7 +202,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add subscription.txt autoselect.json
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh HEX VPN stable verified nodes"
+            git commit -m "Refresh HEX VPN reachable public nodes"
             git push
           else
             echo "Subscription is already up to date."
