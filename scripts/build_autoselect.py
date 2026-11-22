@@ -197,7 +197,33 @@ def main(source, target):
             if fingerprint in seen:
                 continue
             seen.add(fingerprint)
-            outbound["tag"] = f"hex-node-{len(outbounds)+1:03d}"
+            # Keep the stable selector prefix and append a readable node label.
+            # This preserves one AutoSelect profile while naming its internal nodes.
+            display_name = name.strip() or "Сервер"
+            display_name = display_name.removeprefix("HEX |").strip()
+            country_names = {
+                "Germany": "Германия", "Netherlands": "Нидерланды",
+                "France": "Франция", "Sweden": "Швеция",
+                "United Kingdom": "Великобритания", "United States": "США",
+                "United States of America": "США", "Finland": "Финляндия",
+                "Poland": "Польша", "Switzerland": "Швейцария",
+                "Canada": "Канада", "Japan": "Япония", "Singapore": "Сингапур",
+                "Turkey": "Турция", "Russia": "Россия", "Austria": "Австрия",
+                "Belgium": "Бельгия", "Czechia": "Чехия", "Czech Republic": "Чехия",
+                "Denmark": "Дания", "Estonia": "Эстония", "Spain": "Испания",
+                "Italy": "Италия", "Latvia": "Латвия", "Lithuania": "Литва",
+                "Norway": "Норвегия", "Romania": "Румыния", "Ukraine": "Украина",
+                "Australia": "Австралия", "Brazil": "Бразилия", "Hong Kong": "Гонконг",
+                "Ireland": "Ирландия", "Luxembourg": "Люксембург",
+                "Moldova": "Молдова", "Portugal": "Португалия",
+                "Slovakia": "Словакия", "South Korea": "Южная Корея",
+                "Taiwan": "Тайвань", "United Arab Emirates": "ОАЭ",
+            }
+            for english, russian in country_names.items():
+                display_name = display_name.replace(english, russian)
+            if display_name.startswith("Server "):
+                display_name = "Сервер " + display_name.removeprefix("Server ")
+            outbound["tag"] = f"hex-node-{len(outbounds)+1:03d} | {display_name}"
             outbounds.append(outbound)
             source_map.append({"tag": outbound["tag"], "line": line})
         except Exception as exc:
