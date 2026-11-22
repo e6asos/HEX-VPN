@@ -210,13 +210,13 @@ def main(source, target):
             "domainStrategy": "AsIs",
             "rules": [{"type": "field", "network": "tcp,udp", "balancerTag": "hex-auto"}],
             "balancers": [{
-                "tag": "hex-auto", "selector": ["hex-node-"], "fallbackTag": "block",
+                "tag": "hex-auto", "selector": ["hex-node-"], "fallbackTag": tags[0],
                 "strategy": {"type": "leastPing"}
             }]
         },
         "observatory": {
             "subjectSelector": ["hex-node-"],
-            "probeUrl": "https://www.gstatic.com/generate_204",
+            "probeUrl": "https://cp.cloudflare.com/generate_204",
             "probeInterval": "30s",
             "enableConcurrency": True
         },
