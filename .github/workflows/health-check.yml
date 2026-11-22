@@ -1,0 +1,63 @@
+name: HEX VPN Health Check
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hex-vpn-health-check
+  cancel-in-progress: true
+
+jobs:
+  check-published-subscriptions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check public subscription endpoints
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 3 \
+            "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/subscription.txt" \
+            --output subscription.txt
+          curl --fail --silent --show-error --location --retry 3 --retry-delay 3 \
+            "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/autoselect.json" \
+            --output autoselect.json
+
+      - name: Validate published files without modifying them
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          subscription = Path("subscription.txt").read_text(encoding="utf-8")
+          links = [
+              line.strip() for line in subscription.splitlines()
+              if line.strip() and not line.lstrip().startswith("#")
+          ]
+          if not links:
+              raise SystemExit("Health check failed: regular subscription contains no nodes.")
+
+          profiles = json.loads(Path("autoselect.json").read_text(encoding="utf-8"))
+          if not isinstance(profiles, list) or len(profiles) != 1:
+              raise SystemExit("Health check failed: AutoSelect must contain exactly one profile.")
+
+          profile = profiles[0]
+          outbounds = profile.get("outbounds", [])
+          nodes = [item for item in outbounds if item.get("tag", "").startswith("hex-node-")]
+          if not nodes:
+              raise SystemExit("Health check failed: AutoSelect contains no server nodes.")
+
+          balancers = profile.get("routing", {}).get("balancers", [])
+          if not any(item.get("tag") == "hex-auto" for item in balancers):
+              raise SystemExit("Health check failed: expected HEX AutoSelect balancer is missing.")
+
+          print(f"OK: subscription endpoint reachable ({len(links)} entries).")
+          print(f"OK: AutoSelect endpoint reachable and valid ({len(nodes)} nodes).")
+          print("OK: HEX AutoSelect balancer is present.")
+          print("Read-only check completed; no subscription files were changed.")
+          PY
