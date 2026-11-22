@@ -1,2 +1,2 @@
 # HEX-VPN
-Free publoc vpn subsxription | by: @amvkm
+Free public vpn subsxription | by: @amvkm
