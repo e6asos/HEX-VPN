@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/update.yml"
       - "scripts/build_autoselect.py"
+      - "scripts/test_nodes.py"
   schedule:
     - cron: "23 * * * *"
   workflow_dispatch:
@@ -28,6 +29,9 @@ jobs:
           curl --fail --location --retry 3 --retry-delay 5 \
             "https://radarhub.top/v2ray.txt" \
             --output upstream.b64
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub1.txt" \
+            --output quality.b64
 
       - name: Build HEX VPN from public feed
         shell: bash
@@ -36,8 +40,10 @@ jobs:
           import base64, json, re, urllib.parse, urllib.request
           from pathlib import Path
 
-          raw = Path("upstream.b64").read_bytes()
-          decoded = base64.b64decode(b"".join(raw.split()), validate=True).decode("utf-8", errors="strict")
+          decoded = "\n".join(
+              base64.b64decode(b"".join(Path(filename).read_bytes().split()), validate=True).decode("utf-8", errors="strict")
+              for filename in ("quality.b64", "upstream.b64")
+          )
           allowed = {"vless", "vmess", "trojan", "ss", "hysteria2", "hy2", "tuic"}
           entries, seen, hosts = [], set(), []
 
@@ -114,7 +120,7 @@ jobs:
           Path("subscription.txt").write_text("\n".join(output) + "\n", encoding="utf-8")
           print(f"Published {len(entries)} unique nodes from upstream stable feed.")
           PY
-          rm -f upstream.b64
+          rm -f upstream.b64 quality.b64
 
       - name: Remove unsupported and unreachable TCP nodes
         shell: bash
@@ -181,7 +187,26 @@ jobs:
       - name: Build single-entry HEX AutoSelect config
         run: python3 scripts/build_autoselect.py subscription.txt autoselect.json
 
-      - name: Validate AutoSelect with Happ-compatible Xray core
+      - name: Prepare individual node tests
+        run: python3 scripts/test_nodes.py prepare
+
+      - name: Validate individual Xray node test configuration
+        run: docker run --rm -v "$PWD:/config:ro" ghcr.io/xtls/xray-core:26.9.9 run -test -c /config/node-test-config.json
+
+      - name: Test each candidate with real HTTPS
+        shell: bash
+        run: |
+          set -e
+          docker run -d --name hex-xray-node-tests --network host \
+            -v "$PWD:/config:ro" \
+            ghcr.io/xtls/xray-core:26.9.9 run -c /config/node-test-config.json
+          trap 'docker logs hex-xray-node-tests 2>&1 | tail -80; docker rm -f hex-xray-node-tests >/dev/null 2>&1 || true' EXIT
+          sleep 6
+          python3 scripts/test_nodes.py finish
+          docker rm -f hex-xray-node-tests >/dev/null
+          trap - EXIT
+
+      - name: Validate final AutoSelect with Happ-compatible Xray core
         run: |
           python3 - <<'PY'
           import json
@@ -194,32 +219,6 @@ jobs:
           )
           PY
           docker run --rm -v "$PWD:/config:ro" ghcr.io/xtls/xray-core:26.9.9 run -test -c /config/autoselect-xray-test.json
-
-      - name: Live Xray proxy smoke test
-        shell: bash
-        run: |
-          set -e
-          docker run -d --name hex-xray-smoke --network host \
-            -v "$PWD:/config:ro" \
-            ghcr.io/xtls/xray-core:26.9.9 run -c /config/autoselect-xray-test.json
-          trap 'docker logs hex-xray-smoke 2>&1 | tail -80; docker rm -f hex-xray-smoke >/dev/null 2>&1 || true' EXIT
-          sleep 8
-          success=0
-          for attempt in 1 2 3 4; do
-            if curl --silent --show-error --fail --socks5-hostname 127.0.0.1:10808 \
-              --connect-timeout 6 --max-time 18 \
-              https://cp.cloudflare.com/generate_204 -o /dev/null; then
-              echo "Live proxy smoke test passed through the AutoSelect profile."
-              success=1
-              break
-            fi
-            echo "Proxy smoke attempt $attempt failed; waiting before retry."
-            sleep 8
-          done
-          if [ "$success" -ne 1 ]; then
-            echo "::error::Xray started but no end-to-end HTTPS request succeeded through AutoSelect."
-            exit 1
-          fi
 
       - name: Commit subscription if changed
         run: |
