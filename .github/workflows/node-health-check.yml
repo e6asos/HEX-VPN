@@ -1,0 +1,56 @@
+name: HEX VPN Node Health Check
+
+on:
+  schedule:
+    - cron: "53 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: hex-vpn-node-health-check
+  cancel-in-progress: true
+
+jobs:
+  test-published-nodes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download currently published subscriptions
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/subscription.txt" \
+            --output subscription.txt
+          curl --fail --silent --show-error --location --retry 3 \
+            "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/autoselect.json" \
+            --output autoselect.json
+
+      - name: Prepare local test mapping without changing published files
+        run: |
+          python3 scripts/build_autoselect.py subscription.txt generated-autoselect.json
+          python3 scripts/test_nodes.py prepare
+
+      - name: Validate Xray test configuration
+        run: docker run --rm -v "$PWD:/config:ro" ghcr.io/xtls/xray-core:26.9.9 run -test -c /config/node-test-config.json
+
+      - name: Test each published node through real HTTPS
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker run -d --name hex-xray-health-tests --network host \
+            -v "$PWD:/config:ro" \
+            ghcr.io/xtls/xray-core:26.9.9 run -c /config/node-test-config.json
+          cleanup() {
+            docker logs hex-xray-health-tests 2>&1 | tail -60 || true
+            docker rm -f hex-xray-health-tests >/dev/null 2>&1 || true
+          }
+          trap cleanup EXIT
+          sleep 6
+          python3 scripts/test_nodes.py finish
+          echo "Read-only node test completed. No git push or subscription publication is performed."
