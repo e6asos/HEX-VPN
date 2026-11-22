@@ -207,7 +207,7 @@ def main(source, target):
     if len(outbounds) < 3:
         raise SystemExit(f"Refusing to publish AutoSelect: only {len(outbounds)} Xray-compatible nodes.")
     tags = [x["tag"] for x in outbounds]
-    Path("node-source-map.json").write_text(json.dumps(source_map, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    Path("node-source-map.json").write_text(json.dumps(source_map, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     config = {
         "remarks": "⚡ HEX | АВТОВЫБОР",
         "meta": {"serverDescription": "Автоматический выбор по задержке • HEX VPN"},
