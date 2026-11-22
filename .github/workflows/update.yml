@@ -62,7 +62,7 @@ jobs:
               seen.add(uri)
               entries.append(uri)
               hosts.append(host)
-              if len(entries) == 100:
+              if len(entries) == 1000:
                   break
 
           if len(entries) < 20:
