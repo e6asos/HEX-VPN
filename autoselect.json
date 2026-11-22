@@ -2,7 +2,7 @@
   {
     "remarks": "⚡ HEX | АВТОВЫБОР",
     "meta": {
-      "serverDescription": "HEX VPN • 34 серверов прошли индивидуальный HTTPS-тест"
+      "serverDescription": "HEX VPN • 33 серверов прошли индивидуальный HTTPS-тест"
     },
     "log": {
       "loglevel": "warning"
@@ -66,35 +66,6 @@
           }
         },
         "tag": "hex-node-001"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "116.206.95.231",
-              "port": 43000,
-              "users": [
-                {
-                  "id": "4a923161-156f-4914-8cac-762fb2433bfb",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "116.206.95.231",
-            "fingerprint": "firefox",
-            "publicKey": "CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ",
-            "shortId": "ee4ea980"
-          }
-        },
-        "tag": "hex-node-002"
       },
       {
         "protocol": "vless",
@@ -211,6 +182,35 @@
           }
         },
         "tag": "hex-node-006"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "a80b5386.fi2.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "a80b5386.fi2.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc",
+            "shortId": "cc678f10161992a9",
+            "spiderX": "/"
+          }
+        },
+        "tag": "hex-node-007"
       },
       {
         "protocol": "vless",
@@ -365,35 +365,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "45.90.59.15",
-              "port": 443,
-              "users": [
-                {
-                  "id": "3950b45e-740d-4dca-ac95-505ec8534592",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "www.cloudflare.com",
-            "fingerprint": "firefox",
-            "publicKey": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-            "shortId": "19253fae84102271"
-          }
-        },
-        "tag": "hex-node-013"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "177.177.215.45",
               "port": 444,
               "users": [
@@ -534,7 +505,7 @@
             "shortId": "123abcdf"
           }
         },
-        "tag": "hex-node-020"
+        "tag": "hex-node-019"
       },
       {
         "protocol": "vless",
@@ -563,7 +534,7 @@
             "shortId": "8debcf36f1cc69ff"
           }
         },
-        "tag": "hex-node-021"
+        "tag": "hex-node-020"
       },
       {
         "protocol": "vless",
@@ -592,7 +563,7 @@
             "shortId": "a6040129ad7f4b74"
           }
         },
-        "tag": "hex-node-022"
+        "tag": "hex-node-021"
       },
       {
         "protocol": "vless",
@@ -621,7 +592,7 @@
             "shortId": "6281f3ef81187ad8"
           }
         },
-        "tag": "hex-node-023"
+        "tag": "hex-node-022"
       },
       {
         "protocol": "vless",
@@ -650,7 +621,7 @@
             "shortId": "edc4c30c"
           }
         },
-        "tag": "hex-node-025"
+        "tag": "hex-node-024"
       },
       {
         "protocol": "vless",
@@ -681,7 +652,7 @@
             "shortId": "10806885b6614f73"
           }
         },
-        "tag": "hex-node-027"
+        "tag": "hex-node-026"
       },
       {
         "protocol": "vless",
@@ -710,7 +681,7 @@
             "shortId": ""
           }
         },
-        "tag": "hex-node-028"
+        "tag": "hex-node-027"
       },
       {
         "protocol": "vless",
@@ -739,7 +710,7 @@
             "shortId": "7a7d19880a9ee786"
           }
         },
-        "tag": "hex-node-030"
+        "tag": "hex-node-029"
       },
       {
         "protocol": "trojan",
@@ -760,7 +731,7 @@
             "fingerprint": "firefox"
           }
         },
-        "tag": "hex-node-024"
+        "tag": "hex-node-023"
       },
       {
         "protocol": "vmess",
@@ -787,7 +758,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-034"
+        "tag": "hex-node-033"
       },
       {
         "protocol": "vmess",
@@ -814,7 +785,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-036"
+        "tag": "hex-node-035"
       },
       {
         "protocol": "vmess",
@@ -841,7 +812,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-041"
+        "tag": "hex-node-040"
       },
       {
         "protocol": "vmess",
@@ -868,7 +839,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-044"
+        "tag": "hex-node-043"
       },
       {
         "protocol": "vmess",
@@ -895,7 +866,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-047"
+        "tag": "hex-node-046"
       },
       {
         "protocol": "vmess",
@@ -922,7 +893,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-082"
+        "tag": "hex-node-081"
       },
       {
         "protocol": "vmess",
@@ -949,7 +920,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-087"
+        "tag": "hex-node-086"
       },
       {
         "protocol": "vmess",
@@ -976,7 +947,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-106"
+        "tag": "hex-node-104"
       },
       {
         "protocol": "vmess",
@@ -1003,7 +974,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-119"
+        "tag": "hex-node-117"
       },
       {
         "tag": "direct",
