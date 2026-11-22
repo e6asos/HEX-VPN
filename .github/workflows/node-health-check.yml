@@ -20,26 +20,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download currently published subscriptions
+      - name: Download currently published regular subscription
         shell: bash
         run: |
           set -euo pipefail
           curl --fail --silent --show-error --location --retry 3 \
             "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/subscription.txt" \
             --output subscription.txt
-          curl --fail --silent --show-error --location --retry 3 \
-            "https://raw.githubusercontent.com/e6asos/HEX-VPN/main/autoselect.json" \
-            --output autoselect.json
 
-      - name: Prepare local test mapping without changing published files
+      - name: Build a matching local test profile and source map
         run: |
-          python3 scripts/build_autoselect.py subscription.txt generated-autoselect.json
+          # Build both artifacts from the same subscription snapshot.
+          # This keeps outbound tags aligned with node-source-map.json.
+          python3 scripts/build_autoselect.py subscription.txt autoselect.json
           python3 scripts/test_nodes.py prepare
 
       - name: Validate Xray test configuration
         run: docker run --rm -v "$PWD:/config:ro" ghcr.io/xtls/xray-core:26.9.9 run -test -c /config/node-test-config.json
 
-      - name: Test each published node through real HTTPS
+      - name: Test each subscription node through real HTTPS
         shell: bash
         run: |
           set -euo pipefail
