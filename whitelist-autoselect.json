@@ -4,7 +4,7 @@
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
       "80 proxies (62 VLESS + 8 Hysteria + 10 Trojan)",
-      "Happ GLOBAL auto-select • leastPing • 1-minute health probes",
+      "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
@@ -3407,7 +3407,7 @@
         "fragment": {
           "packets": "1-3",
           "length": "50-100",
-          "interval": "10-20",
+          "interval": "1-3",
           "maxSplit": "10"
         },
         "noises": [
