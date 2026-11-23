@@ -3,7 +3,7 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "62 VLESS proxies",
+      "72 proxies (62 VLESS + 10 Trojan)",
       "Happ GLOBAL auto-select • leastPing • 5-minute interval",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
@@ -461,7 +461,7 @@
   ],
   "outbounds": [
     {
-      "tag": "⚪ HEX | БС | Узел 01",
+      "tag": "⚪ HEX | БС | Узел A",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -499,7 +499,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 02",
+      "tag": "⚪ HEX | БС | Узел B",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -537,7 +537,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 03",
+      "tag": "⚪ HEX | БС | Узел C",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -575,7 +575,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 04",
+      "tag": "⚪ HEX | БС | Узел D",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -613,7 +613,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 05",
+      "tag": "⚪ HEX | БС | Узел E",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -650,7 +650,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 06",
+      "tag": "⚪ HEX | БС | Узел F",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -687,7 +687,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 07",
+      "tag": "⚪ HEX | БС | Узел G",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -724,7 +724,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 08",
+      "tag": "⚪ HEX | БС | Узел H",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -759,7 +759,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 09",
+      "tag": "⚪ HEX | БС | Узел I",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -794,7 +794,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 10",
+      "tag": "⚪ HEX | БС | Узел J",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -831,7 +831,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 11",
+      "tag": "⚪ HEX | БС | Узел K",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -868,7 +868,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 12",
+      "tag": "⚪ HEX | БС | Узел L",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -922,7 +922,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 13",
+      "tag": "⚪ HEX | БС | Узел M",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -956,7 +956,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 14",
+      "tag": "⚪ HEX | БС | Узел N",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -990,7 +990,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 15",
+      "tag": "⚪ HEX | БС | Узел O",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1024,7 +1024,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 16",
+      "tag": "⚪ HEX | БС | Узел P",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1058,7 +1058,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 17",
+      "tag": "⚪ HEX | БС | Узел Q",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1112,7 +1112,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 18",
+      "tag": "⚪ HEX | БС | Узел R",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1166,7 +1166,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 19",
+      "tag": "⚪ HEX | БС | Узел S",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1220,7 +1220,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 20",
+      "tag": "⚪ HEX | БС | Узел T",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1257,7 +1257,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 21",
+      "tag": "⚪ HEX | БС | Узел U",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1294,7 +1294,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 22",
+      "tag": "⚪ HEX | БС | Узел V",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1329,7 +1329,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 23",
+      "tag": "⚪ HEX | БС | Узел W",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1367,7 +1367,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 24",
+      "tag": "⚪ HEX | БС | Узел X",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1404,7 +1404,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 25",
+      "tag": "⚪ HEX | БС | Узел Y",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1441,7 +1441,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 26",
+      "tag": "⚪ HEX | БС | Узел Z",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1479,7 +1479,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 27",
+      "tag": "⚪ HEX | БС | Узел AA",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1517,7 +1517,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 28",
+      "tag": "⚪ HEX | БС | Узел AB",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1552,7 +1552,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 29",
+      "tag": "⚪ HEX | БС | Узел AC",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1590,7 +1590,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 30",
+      "tag": "⚪ HEX | БС | Узел AD",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1627,7 +1627,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 31",
+      "tag": "⚪ HEX | БС | Узел AE",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1664,7 +1664,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 32",
+      "tag": "⚪ HEX | БС | Узел AF",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1701,7 +1701,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 33",
+      "tag": "⚪ HEX | БС | Узел AG",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1738,7 +1738,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 34",
+      "tag": "⚪ HEX | БС | Узел AH",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1772,7 +1772,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 35",
+      "tag": "⚪ HEX | БС | Узел AI",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1806,7 +1806,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 36",
+      "tag": "⚪ HEX | БС | Узел AJ",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1842,7 +1842,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 37",
+      "tag": "⚪ HEX | БС | Узел AK",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1878,7 +1878,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 38",
+      "tag": "⚪ HEX | БС | Узел AL",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1932,7 +1932,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 39",
+      "tag": "⚪ HEX | БС | Узел AM",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1986,7 +1986,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 40",
+      "tag": "⚪ HEX | БС | Узел AN",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2021,7 +2021,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 41",
+      "tag": "⚪ HEX | БС | Узел AO",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2056,7 +2056,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 42",
+      "tag": "⚪ HEX | БС | Узел AP",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2096,7 +2096,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 43",
+      "tag": "⚪ HEX | БС | Узел AQ",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2136,7 +2136,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 44",
+      "tag": "⚪ HEX | БС | Узел AR",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2179,7 +2179,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 45",
+      "tag": "⚪ HEX | БС | Узел AS",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2222,7 +2222,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 46",
+      "tag": "⚪ HEX | БС | Узел AT",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2256,7 +2256,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 47",
+      "tag": "⚪ HEX | БС | Узел AU",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2290,7 +2290,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 48",
+      "tag": "⚪ HEX | БС | Узел AV",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2330,7 +2330,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 49",
+      "tag": "⚪ HEX | БС | Узел AW",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2370,7 +2370,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 50",
+      "tag": "⚪ HEX | БС | Узел AX",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2406,7 +2406,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 51",
+      "tag": "⚪ HEX | БС | Узел AY",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2442,7 +2442,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 52",
+      "tag": "⚪ HEX | БС | Узел AZ",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2478,7 +2478,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 53",
+      "tag": "⚪ HEX | БС | Узел BA",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2514,7 +2514,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 54",
+      "tag": "⚪ HEX | БС | Узел BB",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2554,7 +2554,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 55",
+      "tag": "⚪ HEX | БС | Узел BC",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2594,7 +2594,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 56",
+      "tag": "⚪ HEX | БС | Узел BD",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2630,7 +2630,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 57",
+      "tag": "⚪ HEX | БС | Узел BE",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2666,7 +2666,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 58",
+      "tag": "⚪ HEX | БС | Узел BF",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2702,7 +2702,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 59",
+      "tag": "⚪ HEX | БС | Узел BG",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2738,7 +2738,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 60",
+      "tag": "⚪ HEX | БС | Узел BH",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2774,7 +2774,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 61",
+      "tag": "⚪ HEX | БС | Узел BI",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2810,7 +2810,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 62",
+      "tag": "⚪ HEX | БС | Узел BJ",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2837,7 +2837,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 63",
+      "tag": "⚪ HEX | БС | Узел BK",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2864,7 +2864,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 64",
+      "tag": "⚪ HEX | БС | Узел BL",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2891,7 +2891,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 65",
+      "tag": "⚪ HEX | БС | Узел BM",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2918,7 +2918,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 66",
+      "tag": "⚪ HEX | БС | Узел BN",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2945,7 +2945,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 67",
+      "tag": "⚪ HEX | БС | Узел BO",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2972,7 +2972,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 68",
+      "tag": "⚪ HEX | БС | Узел BP",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2999,7 +2999,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 69",
+      "tag": "⚪ HEX | БС | Узел BQ",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -3026,7 +3026,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 70",
+      "tag": "⚪ HEX | БС | Узел BR",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3060,7 +3060,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 71",
+      "tag": "⚪ HEX | БС | Узел BS",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3094,7 +3094,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 72",
+      "tag": "⚪ HEX | БС | Узел BT",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3128,7 +3128,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 73",
+      "tag": "⚪ HEX | БС | Узел BU",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3162,7 +3162,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 74",
+      "tag": "⚪ HEX | БС | Узел BV",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3196,7 +3196,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 75",
+      "tag": "⚪ HEX | БС | Узел BW",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3230,7 +3230,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 76",
+      "tag": "⚪ HEX | БС | Узел BX",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3264,7 +3264,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 77",
+      "tag": "⚪ HEX | БС | Узел BY",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3298,7 +3298,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 78",
+      "tag": "⚪ HEX | БС | Узел BZ",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3332,7 +3332,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 79",
+      "tag": "⚪ HEX | БС | Узел CA",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3366,7 +3366,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел 80",
+      "tag": "⚪ HEX | БС | Узел CB",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -3460,7 +3460,7 @@
         "selector": [
           "⚪ HEX | БС | Узел "
         ],
-        "fallbackTag": "⚪ HEX | БС | Узел 01",
+        "fallbackTag": "⚪ HEX | БС | Узел A",
         "strategy": {
           "type": "leastPing"
         }
@@ -3512,5 +3512,9 @@
         "balancerTag": "igareck-auto"
       }
     ]
+  },
+  "remarks": "⚪ HEX | АВТО БС",
+  "meta": {
+    "serverDescription": "HEX VPN • автоматический выбор по минимальному пингу"
   }
 }
