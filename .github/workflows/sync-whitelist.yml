@@ -85,15 +85,19 @@ jobs:
                   old_fallback = balancer_item.get("fallbackTag")
                   balancer_item["selector"] = [tag_prefix]
                   balancer_item["fallbackTag"] = tag_map.get(old_fallback, next(iter(tag_map.values())))
-          if isinstance(cfg.get("observatory"), dict):
-              cfg["observatory"]["subjectSelector"] = [tag_prefix]
+          observatory = cfg.setdefault("observatory", {})
+          observatory["subjectSelector"] = [tag_prefix]
+          observatory["probeUrl"] = "https://www.google.com/generate_204"
+          observatory.pop("probeURL", None)
+          observatory["probeInterval"] = "1m"
+          observatory["enableConcurrency"] = True
 
           cfg.setdefault("_meta", {})
           cfg["_meta"]["name"] = "⚪ HEX | АВТО БС"
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
           cfg["_meta"]["notes"] = [
               f"{len(nodes)} proxies ({vless_count} VLESS + {hysteria_count} Hysteria + {trojan_count} Trojan)",
-              "Happ GLOBAL auto-select • leastPing • 5-minute interval",
+              "Happ GLOBAL auto-select • leastPing • 1-minute health probes",
               "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
           ]
           cfg["remarks"] = "⚪ HEX | АВТО БС"
