@@ -56,6 +56,26 @@ jobs:
           if not any(x.get("tag") == "socks-in" for x in cfg.get("inbounds", [])):
               raise SystemExit("Refusing update: Happ SOCKS inbound missing")
 
+          # Replace upstream numeric tags with readable HEX labels while preserving routing.
+          tag_prefix = "⚪ HEX | БС | Узел "
+          tag_map = {}
+          for outbound in cfg.get("outbounds", []):
+              old_tag = str(outbound.get("tag", ""))
+              if old_tag.startswith("igareck-node-"):
+                  new_tag = f"{tag_prefix}{len(tag_map) + 1:02d}"
+                  tag_map[old_tag] = new_tag
+                  outbound["tag"] = new_tag
+          if not tag_map:
+              raise SystemExit("Refusing update: no upstream node tags found")
+
+          for balancer_item in cfg.get("routing", {}).get("balancers", []):
+              if balancer_item.get("tag") == "igareck-auto":
+                  old_fallback = balancer_item.get("fallbackTag")
+                  balancer_item["selector"] = [tag_prefix]
+                  balancer_item["fallbackTag"] = tag_map.get(old_fallback, next(iter(tag_map.values())))
+          if isinstance(cfg.get("observatory"), dict):
+              cfg["observatory"]["subjectSelector"] = [tag_prefix]
+
           cfg.setdefault("_meta", {})
           cfg["_meta"]["name"] = "⚪ HEX | АВТО БС"
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
