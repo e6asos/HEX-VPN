@@ -4,7 +4,7 @@
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
       "80 proxies (62 VLESS + 8 Hysteria + 10 Trojan)",
-      "Happ GLOBAL auto-select • leastPing • 5-minute interval",
+      "Happ GLOBAL auto-select • leastPing • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
@@ -3447,9 +3447,9 @@
     "subjectSelector": [
       "⚪ HEX | БС | Узел "
     ],
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "probeInterval": "5m",
-    "enableConcurrency": true
+    "probeInterval": "1m",
+    "enableConcurrency": true,
+    "probeUrl": "https://www.google.com/generate_204"
   },
   "routing": {
     "domainStrategy": "IPIfNonMatch",
