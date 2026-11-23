@@ -3,7 +3,7 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "72 proxies (62 VLESS + 10 Trojan)",
+      "80 proxies (62 VLESS + 8 Hysteria + 10 Trojan)",
       "Happ GLOBAL auto-select • leastPing • 5-minute interval",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
