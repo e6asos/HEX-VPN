@@ -40,9 +40,10 @@ jobs:
           outbounds = cfg.get("outbounds", [])
           nodes = [
               x for x in outbounds
-              if x.get("protocol") == "vless"
+              if x.get("protocol") in ("vless", "trojan")
               and str(x.get("tag", "")).startswith("igareck-node-")
           ]
+          vless_count = sum(x.get("protocol") == "vless" for x in nodes)
           balancer = next(
               (x for x in cfg.get("routing", {}).get("balancers", [])
                if x.get("tag") == "igareck-auto"
@@ -59,10 +60,19 @@ jobs:
           # Replace upstream numeric tags with readable HEX labels while preserving routing.
           tag_prefix = "⚪ HEX | БС | Узел "
           tag_map = {}
+
+          def alpha_label(number):
+              # Excel-style labels: A..Z, AA..AZ, BA..; never numeric-only.
+              result = ""
+              while number:
+                  number, remainder = divmod(number - 1, 26)
+                  result = chr(65 + remainder) + result
+              return result
+
           for outbound in cfg.get("outbounds", []):
               old_tag = str(outbound.get("tag", ""))
               if old_tag.startswith("igareck-node-"):
-                  new_tag = f"{tag_prefix}{len(tag_map) + 1:02d}"
+                  new_tag = f"{tag_prefix}{alpha_label(len(tag_map) + 1)}"
                   tag_map[old_tag] = new_tag
                   outbound["tag"] = new_tag
           if not tag_map:
@@ -80,15 +90,17 @@ jobs:
           cfg["_meta"]["name"] = "⚪ HEX | АВТО БС"
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
           cfg["_meta"]["notes"] = [
-              f"{len(nodes)} VLESS proxies",
+              f"{len(nodes)} proxies ({vless_count} VLESS + {len(nodes) - vless_count} Trojan)",
               "Happ GLOBAL auto-select • leastPing • 5-minute interval",
               "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
           ]
+          cfg["remarks"] = "⚪ HEX | АВТО БС"
+          cfg.setdefault("meta", {})["serverDescription"] = "HEX VPN • автоматический выбор по минимальному пингу"
           Path("whitelist-autoselect.json").write_text(
               json.dumps(cfg, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8"
           )
-          print(f"Validated {len(nodes)} VLESS proxies and leastPing balancer.")
+          print(f"Validated {len(nodes)} proxies ({vless_count} VLESS + {len(nodes) - vless_count} Trojan) and leastPing balancer.")
           PY
 
       - name: Build manual selectable white-list subscription
