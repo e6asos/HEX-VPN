@@ -118,12 +118,12 @@ jobs:
                   continue
               seen.add(uri)
               old_name = unquote(line.split("#", 1)[1]) if "#" in line else ""
-              old_name = re.sub(r"\\[\\*?CIDR\\]", "", old_name, flags=re.I)
-              old_name = re.sub(r"\\s*\\|\\s*", " ", old_name).strip()
+              old_name = re.sub(r"\[\*?CIDR\]", "", old_name, flags=re.I)
+              old_name = re.sub(r"\s*\|\s*", " ", old_name).strip()
               country = next((name for name in translations if name in old_name), None)
               if country:
                   counts[country] = counts.get(country, 0) + 1
-                  flag = "".join(re.findall(r"[\\U0001F1E6-\\U0001F1FF]{2}", old_name)[:1])
+                  flag = "".join(re.findall(r"[\U0001F1E6-\U0001F1FF]{2}", old_name)[:1])
                   label = f"⚪ HEX | БС | {flag} {translations[country]} {counts[country]:02d}"
               else:
                   generic += 1
@@ -132,7 +132,7 @@ jobs:
 
           if len(output) - 4 < 20:
               raise SystemExit(f"Refusing update: only {len(output) - 4} manual configs")
-          Path("whitelist.txt").write_text("\\n".join(output) + "\\n", encoding="utf-8")
+          Path("whitelist.txt").write_text("\n".join(output) + "\n", encoding="utf-8")
           print(f"Built {len(output) - 4} manually selectable white-list configs.")
           PY
           rm -f upstream-whitelist.txt
