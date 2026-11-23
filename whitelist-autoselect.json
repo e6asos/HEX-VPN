@@ -461,7 +461,7 @@
   ],
   "outbounds": [
     {
-      "tag": "igareck-node-001",
+      "tag": "⚪ HEX | БС | Узел 01",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -499,7 +499,7 @@
       }
     },
     {
-      "tag": "igareck-node-002",
+      "tag": "⚪ HEX | БС | Узел 02",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -537,7 +537,7 @@
       }
     },
     {
-      "tag": "igareck-node-003",
+      "tag": "⚪ HEX | БС | Узел 03",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -575,7 +575,7 @@
       }
     },
     {
-      "tag": "igareck-node-004",
+      "tag": "⚪ HEX | БС | Узел 04",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -613,7 +613,7 @@
       }
     },
     {
-      "tag": "igareck-node-005",
+      "tag": "⚪ HEX | БС | Узел 05",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -650,7 +650,7 @@
       }
     },
     {
-      "tag": "igareck-node-006",
+      "tag": "⚪ HEX | БС | Узел 06",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -687,7 +687,7 @@
       }
     },
     {
-      "tag": "igareck-node-007",
+      "tag": "⚪ HEX | БС | Узел 07",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -724,7 +724,7 @@
       }
     },
     {
-      "tag": "igareck-node-008",
+      "tag": "⚪ HEX | БС | Узел 08",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -759,7 +759,7 @@
       }
     },
     {
-      "tag": "igareck-node-009",
+      "tag": "⚪ HEX | БС | Узел 09",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -794,7 +794,7 @@
       }
     },
     {
-      "tag": "igareck-node-010",
+      "tag": "⚪ HEX | БС | Узел 10",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -831,7 +831,7 @@
       }
     },
     {
-      "tag": "igareck-node-011",
+      "tag": "⚪ HEX | БС | Узел 11",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -868,7 +868,7 @@
       }
     },
     {
-      "tag": "igareck-node-012",
+      "tag": "⚪ HEX | БС | Узел 12",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -922,7 +922,7 @@
       }
     },
     {
-      "tag": "igareck-node-013",
+      "tag": "⚪ HEX | БС | Узел 13",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -956,7 +956,7 @@
       }
     },
     {
-      "tag": "igareck-node-014",
+      "tag": "⚪ HEX | БС | Узел 14",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -990,7 +990,7 @@
       }
     },
     {
-      "tag": "igareck-node-015",
+      "tag": "⚪ HEX | БС | Узел 15",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1024,7 +1024,7 @@
       }
     },
     {
-      "tag": "igareck-node-016",
+      "tag": "⚪ HEX | БС | Узел 16",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1058,7 +1058,7 @@
       }
     },
     {
-      "tag": "igareck-node-017",
+      "tag": "⚪ HEX | БС | Узел 17",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1112,7 +1112,7 @@
       }
     },
     {
-      "tag": "igareck-node-018",
+      "tag": "⚪ HEX | БС | Узел 18",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1166,7 +1166,7 @@
       }
     },
     {
-      "tag": "igareck-node-019",
+      "tag": "⚪ HEX | БС | Узел 19",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1220,7 +1220,7 @@
       }
     },
     {
-      "tag": "igareck-node-020",
+      "tag": "⚪ HEX | БС | Узел 20",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1257,7 +1257,7 @@
       }
     },
     {
-      "tag": "igareck-node-021",
+      "tag": "⚪ HEX | БС | Узел 21",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1294,7 +1294,7 @@
       }
     },
     {
-      "tag": "igareck-node-022",
+      "tag": "⚪ HEX | БС | Узел 22",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1329,7 +1329,7 @@
       }
     },
     {
-      "tag": "igareck-node-023",
+      "tag": "⚪ HEX | БС | Узел 23",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1367,7 +1367,7 @@
       }
     },
     {
-      "tag": "igareck-node-024",
+      "tag": "⚪ HEX | БС | Узел 24",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1404,7 +1404,7 @@
       }
     },
     {
-      "tag": "igareck-node-025",
+      "tag": "⚪ HEX | БС | Узел 25",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1441,7 +1441,7 @@
       }
     },
     {
-      "tag": "igareck-node-026",
+      "tag": "⚪ HEX | БС | Узел 26",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1479,7 +1479,7 @@
       }
     },
     {
-      "tag": "igareck-node-027",
+      "tag": "⚪ HEX | БС | Узел 27",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1517,7 +1517,7 @@
       }
     },
     {
-      "tag": "igareck-node-028",
+      "tag": "⚪ HEX | БС | Узел 28",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1552,7 +1552,7 @@
       }
     },
     {
-      "tag": "igareck-node-029",
+      "tag": "⚪ HEX | БС | Узел 29",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1590,7 +1590,7 @@
       }
     },
     {
-      "tag": "igareck-node-030",
+      "tag": "⚪ HEX | БС | Узел 30",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1627,7 +1627,7 @@
       }
     },
     {
-      "tag": "igareck-node-031",
+      "tag": "⚪ HEX | БС | Узел 31",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1664,7 +1664,7 @@
       }
     },
     {
-      "tag": "igareck-node-032",
+      "tag": "⚪ HEX | БС | Узел 32",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1701,7 +1701,7 @@
       }
     },
     {
-      "tag": "igareck-node-033",
+      "tag": "⚪ HEX | БС | Узел 33",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1738,7 +1738,7 @@
       }
     },
     {
-      "tag": "igareck-node-034",
+      "tag": "⚪ HEX | БС | Узел 34",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1772,7 +1772,7 @@
       }
     },
     {
-      "tag": "igareck-node-035",
+      "tag": "⚪ HEX | БС | Узел 35",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1806,7 +1806,7 @@
       }
     },
     {
-      "tag": "igareck-node-036",
+      "tag": "⚪ HEX | БС | Узел 36",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1842,7 +1842,7 @@
       }
     },
     {
-      "tag": "igareck-node-037",
+      "tag": "⚪ HEX | БС | Узел 37",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1878,7 +1878,7 @@
       }
     },
     {
-      "tag": "igareck-node-038",
+      "tag": "⚪ HEX | БС | Узел 38",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1932,7 +1932,7 @@
       }
     },
     {
-      "tag": "igareck-node-039",
+      "tag": "⚪ HEX | БС | Узел 39",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1986,7 +1986,7 @@
       }
     },
     {
-      "tag": "igareck-node-040",
+      "tag": "⚪ HEX | БС | Узел 40",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2021,7 +2021,7 @@
       }
     },
     {
-      "tag": "igareck-node-041",
+      "tag": "⚪ HEX | БС | Узел 41",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2056,7 +2056,7 @@
       }
     },
     {
-      "tag": "igareck-node-042",
+      "tag": "⚪ HEX | БС | Узел 42",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2096,7 +2096,7 @@
       }
     },
     {
-      "tag": "igareck-node-043",
+      "tag": "⚪ HEX | БС | Узел 43",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2136,7 +2136,7 @@
       }
     },
     {
-      "tag": "igareck-node-044",
+      "tag": "⚪ HEX | БС | Узел 44",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2179,7 +2179,7 @@
       }
     },
     {
-      "tag": "igareck-node-045",
+      "tag": "⚪ HEX | БС | Узел 45",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2222,7 +2222,7 @@
       }
     },
     {
-      "tag": "igareck-node-046",
+      "tag": "⚪ HEX | БС | Узел 46",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2256,7 +2256,7 @@
       }
     },
     {
-      "tag": "igareck-node-047",
+      "tag": "⚪ HEX | БС | Узел 47",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2290,7 +2290,7 @@
       }
     },
     {
-      "tag": "igareck-node-048",
+      "tag": "⚪ HEX | БС | Узел 48",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2330,7 +2330,7 @@
       }
     },
     {
-      "tag": "igareck-node-049",
+      "tag": "⚪ HEX | БС | Узел 49",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2370,7 +2370,7 @@
       }
     },
     {
-      "tag": "igareck-node-050",
+      "tag": "⚪ HEX | БС | Узел 50",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2406,7 +2406,7 @@
       }
     },
     {
-      "tag": "igareck-node-051",
+      "tag": "⚪ HEX | БС | Узел 51",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2442,7 +2442,7 @@
       }
     },
     {
-      "tag": "igareck-node-052",
+      "tag": "⚪ HEX | БС | Узел 52",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2478,7 +2478,7 @@
       }
     },
     {
-      "tag": "igareck-node-053",
+      "tag": "⚪ HEX | БС | Узел 53",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2514,7 +2514,7 @@
       }
     },
     {
-      "tag": "igareck-node-054",
+      "tag": "⚪ HEX | БС | Узел 54",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2554,7 +2554,7 @@
       }
     },
     {
-      "tag": "igareck-node-055",
+      "tag": "⚪ HEX | БС | Узел 55",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2594,7 +2594,7 @@
       }
     },
     {
-      "tag": "igareck-node-056",
+      "tag": "⚪ HEX | БС | Узел 56",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2630,7 +2630,7 @@
       }
     },
     {
-      "tag": "igareck-node-057",
+      "tag": "⚪ HEX | БС | Узел 57",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2666,7 +2666,7 @@
       }
     },
     {
-      "tag": "igareck-node-058",
+      "tag": "⚪ HEX | БС | Узел 58",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2702,7 +2702,7 @@
       }
     },
     {
-      "tag": "igareck-node-059",
+      "tag": "⚪ HEX | БС | Узел 59",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2738,7 +2738,7 @@
       }
     },
     {
-      "tag": "igareck-node-060",
+      "tag": "⚪ HEX | БС | Узел 60",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2774,7 +2774,7 @@
       }
     },
     {
-      "tag": "igareck-node-061",
+      "tag": "⚪ HEX | БС | Узел 61",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2810,7 +2810,7 @@
       }
     },
     {
-      "tag": "igareck-node-062",
+      "tag": "⚪ HEX | БС | Узел 62",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2837,7 +2837,7 @@
       }
     },
     {
-      "tag": "igareck-node-063",
+      "tag": "⚪ HEX | БС | Узел 63",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2864,7 +2864,7 @@
       }
     },
     {
-      "tag": "igareck-node-064",
+      "tag": "⚪ HEX | БС | Узел 64",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2891,7 +2891,7 @@
       }
     },
     {
-      "tag": "igareck-node-065",
+      "tag": "⚪ HEX | БС | Узел 65",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2918,7 +2918,7 @@
       }
     },
     {
-      "tag": "igareck-node-066",
+      "tag": "⚪ HEX | БС | Узел 66",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2945,7 +2945,7 @@
       }
     },
     {
-      "tag": "igareck-node-067",
+      "tag": "⚪ HEX | БС | Узел 67",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2972,7 +2972,7 @@
       }
     },
     {
-      "tag": "igareck-node-068",
+      "tag": "⚪ HEX | БС | Узел 68",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -2999,7 +2999,7 @@
       }
     },
     {
-      "tag": "igareck-node-069",
+      "tag": "⚪ HEX | БС | Узел 69",
       "protocol": "hysteria",
       "settings": {
         "version": 2,
@@ -3026,7 +3026,7 @@
       }
     },
     {
-      "tag": "igareck-node-070",
+      "tag": "⚪ HEX | БС | Узел 70",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3060,7 +3060,7 @@
       }
     },
     {
-      "tag": "igareck-node-071",
+      "tag": "⚪ HEX | БС | Узел 71",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3094,7 +3094,7 @@
       }
     },
     {
-      "tag": "igareck-node-072",
+      "tag": "⚪ HEX | БС | Узел 72",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3128,7 +3128,7 @@
       }
     },
     {
-      "tag": "igareck-node-073",
+      "tag": "⚪ HEX | БС | Узел 73",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3162,7 +3162,7 @@
       }
     },
     {
-      "tag": "igareck-node-074",
+      "tag": "⚪ HEX | БС | Узел 74",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3196,7 +3196,7 @@
       }
     },
     {
-      "tag": "igareck-node-075",
+      "tag": "⚪ HEX | БС | Узел 75",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3230,7 +3230,7 @@
       }
     },
     {
-      "tag": "igareck-node-076",
+      "tag": "⚪ HEX | БС | Узел 76",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3264,7 +3264,7 @@
       }
     },
     {
-      "tag": "igareck-node-077",
+      "tag": "⚪ HEX | БС | Узел 77",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3298,7 +3298,7 @@
       }
     },
     {
-      "tag": "igareck-node-078",
+      "tag": "⚪ HEX | БС | Узел 78",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3332,7 +3332,7 @@
       }
     },
     {
-      "tag": "igareck-node-079",
+      "tag": "⚪ HEX | БС | Узел 79",
       "protocol": "trojan",
       "settings": {
         "servers": [
@@ -3366,7 +3366,7 @@
       }
     },
     {
-      "tag": "igareck-node-080",
+      "tag": "⚪ HEX | БС | Узел 80",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -3445,7 +3445,7 @@
   ],
   "observatory": {
     "subjectSelector": [
-      "igareck-node-"
+      "⚪ HEX | БС | Узел "
     ],
     "probeURL": "https://www.gstatic.com/generate_204",
     "probeInterval": "5m",
@@ -3458,9 +3458,9 @@
       {
         "tag": "igareck-auto",
         "selector": [
-          "igareck-node-"
+          "⚪ HEX | БС | Узел "
         ],
-        "fallbackTag": "igareck-node-001",
+        "fallbackTag": "⚪ HEX | БС | Узел 01",
         "strategy": {
           "type": "leastPing"
         }
