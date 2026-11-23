@@ -54,7 +54,7 @@ jobs:
               raise SystemExit("Refusing update: Happ SOCKS inbound missing")
 
           cfg.setdefault("_meta", {})
-          cfg["_meta"]["name"] = "⚪ HEX | АВТОВЫБОР | БС"
+          cfg["_meta"]["name"] = "⚪ HEX | АВТО БС"
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
           cfg["_meta"]["notes"] = [
               f"{len(nodes)} VLESS proxies",
