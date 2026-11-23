@@ -1,0 +1,83 @@
+name: Update HEX White-List Auto Select
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hex-whitelist-autoselect
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and validate Happ white-list auto-select
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Happ/GLOBAL/Vless-Reality-White-Lists-Rus-Mobile-Happ-global.json" \
+            --output upstream-whitelist.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("upstream-whitelist.json")
+          cfg = json.loads(path.read_text(encoding="utf-8"))
+          if not isinstance(cfg, dict):
+              raise SystemExit("Expected a single Happ/Xray config object")
+          outbounds = cfg.get("outbounds", [])
+          nodes = [
+              x for x in outbounds
+              if x.get("protocol") == "vless"
+              and str(x.get("tag", "")).startswith("igareck-node-")
+          ]
+          balancer = next(
+              (x for x in cfg.get("routing", {}).get("balancers", [])
+               if x.get("tag") == "igareck-auto"
+               and x.get("strategy", {}).get("type") == "leastPing"),
+              None
+          )
+          if len(nodes) < 20:
+              raise SystemExit(f"Refusing update: only {len(nodes)} proxy nodes")
+          if not balancer:
+              raise SystemExit("Refusing update: leastPing auto-selector missing")
+          if not any(x.get("tag") == "socks-in" for x in cfg.get("inbounds", [])):
+              raise SystemExit("Refusing update: Happ SOCKS inbound missing")
+
+          cfg.setdefault("_meta", {})
+          cfg["_meta"]["name"] = "⚪ HEX | АВТОВЫБОР | БС"
+          cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
+          cfg["_meta"]["notes"] = [
+              f"{len(nodes)} VLESS proxies",
+              "Happ GLOBAL auto-select • leastPing • 5-minute interval",
+              "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
+          ]
+          Path("whitelist-autoselect.json").write_text(
+              json.dumps(cfg, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          print(f"Validated {len(nodes)} VLESS proxies and leastPing balancer.")
+          PY
+
+      - name: Publish updated profile
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add whitelist-autoselect.json
+          if git diff --cached --quiet; then
+            echo "No upstream changes."
+            exit 0
+          fi
+          git commit -m "Update HEX White-List Auto Select"
+          git push
