@@ -40,10 +40,12 @@ jobs:
           outbounds = cfg.get("outbounds", [])
           nodes = [
               x for x in outbounds
-              if x.get("protocol") in ("vless", "trojan")
+              if x.get("protocol") in ("vless", "trojan", "hysteria")
               and str(x.get("tag", "")).startswith("igareck-node-")
           ]
           vless_count = sum(x.get("protocol") == "vless" for x in nodes)
+          hysteria_count = sum(x.get("protocol") == "hysteria" for x in nodes)
+          trojan_count = sum(x.get("protocol") == "trojan" for x in nodes)
           balancer = next(
               (x for x in cfg.get("routing", {}).get("balancers", [])
                if x.get("tag") == "igareck-auto"
@@ -90,7 +92,7 @@ jobs:
           cfg["_meta"]["name"] = "⚪ HEX | АВТО БС"
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
           cfg["_meta"]["notes"] = [
-              f"{len(nodes)} proxies ({vless_count} VLESS + {len(nodes) - vless_count} Trojan)",
+              f"{len(nodes)} proxies ({vless_count} VLESS + {hysteria_count} Hysteria + {trojan_count} Trojan)",
               "Happ GLOBAL auto-select • leastPing • 5-minute interval",
               "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
           ]
@@ -100,7 +102,7 @@ jobs:
               json.dumps(cfg, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8"
           )
-          print(f"Validated {len(nodes)} proxies ({vless_count} VLESS + {len(nodes) - vless_count} Trojan) and leastPing balancer.")
+          print(f"Validated {len(nodes)} proxies ({vless_count} VLESS + {hysteria_count} Hysteria + {trojan_count} Trojan) and leastPing balancer.")
           PY
 
       - name: Build manual selectable white-list subscription
