@@ -85,6 +85,13 @@ jobs:
                   old_fallback = balancer_item.get("fallbackTag")
                   balancer_item["selector"] = [tag_prefix]
                   balancer_item["fallbackTag"] = tag_map.get(old_fallback, next(iter(tag_map.values())))
+          # Keep anti-DPI fragmentation but reduce the per-fragment wait to 1-3 ms.
+          fragment_outbound = next((x for x in cfg.get("outbounds", []) if x.get("tag") == "fragment"), None)
+          if fragment_outbound:
+              fragment_settings = fragment_outbound.setdefault("settings", {}).get("fragment")
+              if isinstance(fragment_settings, dict):
+                  fragment_settings["interval"] = "1-3"
+
           observatory = cfg.setdefault("observatory", {})
           observatory["subjectSelector"] = [tag_prefix]
           observatory["probeUrl"] = "https://www.google.com/generate_204"
@@ -97,7 +104,7 @@ jobs:
           cfg["_meta"]["generator"] = "HEX VPN • upstream Igareck"
           cfg["_meta"]["notes"] = [
               f"{len(nodes)} proxies ({vless_count} VLESS + {hysteria_count} Hysteria + {trojan_count} Trojan)",
-              "Happ GLOBAL auto-select • leastPing • 1-minute health probes",
+              "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
               "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
           ]
           cfg["remarks"] = "⚪ HEX | АВТО БС"
