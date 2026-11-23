@@ -1,6 +1,9 @@
 name: Update HEX White-List Auto Select
 
 on:
+  push:
+    paths:
+      - ".github/workflows/sync-whitelist.yml"
   schedule:
     - cron: "17 */2 * * *"
   workflow_dispatch:
