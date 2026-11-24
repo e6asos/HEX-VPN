@@ -2,7 +2,7 @@
   {
     "remarks": "⚡ HEX | АВТОВЫБОР",
     "meta": {
-      "serverDescription": "HEX VPN • 39 серверов прошли индивидуальный HTTPS-тест"
+      "serverDescription": "HEX VPN • 34 серверов прошли индивидуальный HTTPS-тест"
     },
     "log": {
       "loglevel": "warning"
@@ -126,38 +126,6 @@
           }
         },
         "tag": "hex-node-005 | 🇺🇸 США 02"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "38917fx.es1.h1clayd.click",
-              "port": 443,
-              "users": [
-                {
-                  "id": "4201786b-d99b-4147-a5f0-20d47acddb81",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "reality",
-          "xhttpSettings": {
-            "path": "/",
-            "mode": "auto"
-          },
-          "realitySettings": {
-            "serverName": "38917fx.es1.h1clayd.click",
-            "fingerprint": "edge",
-            "publicKey": "4mgkA2kT_Im0rkGi-fVSUU5CyF5xvMVcjA6MXBSEDAA",
-            "shortId": "d5501b156391e01d"
-          }
-        },
-        "tag": "hex-node-006 | Сервер 08"
       },
       {
         "protocol": "vless",
@@ -335,6 +303,34 @@
         "settings": {
           "vnext": [
             {
+              "address": "f0d7aft.nl13.h1clayd.click",
+              "port": 443,
+              "users": [
+                {
+                  "id": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+                  "encryption": "none"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "tcp",
+          "security": "reality",
+          "realitySettings": {
+            "serverName": "f0d7aft.nl13.h1clayd.click",
+            "fingerprint": "firefox",
+            "publicKey": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
+            "shortId": "8956c57cb4c4f8d2"
+          }
+        },
+        "tag": "hex-node-013 | Сервер 19"
+      },
+      {
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
               "address": "177.177.215.45",
               "port": 444,
               "users": [
@@ -385,96 +381,6 @@
           }
         },
         "tag": "hex-node-015 | 🇳🇱 The Нидерланды 03"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "finland.claudpath.com",
-              "port": 8443,
-              "users": [
-                {
-                  "id": "2141d7d6-f123-5cc3-afa5-8f3baf938099",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "reality",
-          "xhttpSettings": {
-            "path": "/xhttp",
-            "mode": "stream-one"
-          },
-          "realitySettings": {
-            "serverName": "cdn8-68.cachemesh.top",
-            "fingerprint": "firefox",
-            "publicKey": "wKtWduFeuLfED3gUZo3KE4_EKlBTK7sNk3DXgRF7HSk",
-            "shortId": "172066e9"
-          }
-        },
-        "tag": "hex-node-016 | Сервер 23"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "46.28.67.55",
-              "port": 443,
-              "users": [
-                {
-                  "id": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "www.cloudflare.com",
-            "fingerprint": "firefox",
-            "publicKey": "i2dJ1_XGDpp50qpEclh6SWSWkxt4B0t2hi2qOVQbeSU",
-            "shortId": "d06d78e974491b6e"
-          }
-        },
-        "tag": "hex-node-017 | 🇷🇴 Румыния 02"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "82.118.16.187",
-              "port": 443,
-              "users": [
-                {
-                  "id": "dc2259c4-388e-4285-ba18-df619b6672b6",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "www.cloudflare.com",
-            "fingerprint": "firefox",
-            "publicKey": "R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU",
-            "shortId": "cd6065902eea7a02"
-          }
-        },
-        "tag": "hex-node-018 | 🇮🇹 Италия 01"
       },
       {
         "protocol": "vless",
@@ -740,68 +646,6 @@
         "settings": {
           "vnext": [
             {
-              "address": "13.141.36.141",
-              "port": 443,
-              "users": [
-                {
-                  "id": "cae99415-10a6-4317-81bd-19a4586b5d76",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "xhttp",
-          "security": "reality",
-          "xhttpSettings": {
-            "path": "/8c1d3cd048db",
-            "mode": "auto",
-            "host": "7bc4aex.lt3.h1clayd.click"
-          },
-          "realitySettings": {
-            "serverName": "7bc4aex.lt3.h1clayd.click",
-            "fingerprint": "firefox",
-            "publicKey": "KEbWnNTqeFDxwCQqyvVvyEhnK7QUIrwhq9-9geUEOmY",
-            "shortId": "90190d82f1581926"
-          }
-        },
-        "tag": "hex-node-029 | 🇷🇴 Румыния 03"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "167.148.90.7",
-              "port": 443,
-              "users": [
-                {
-                  "id": "c5d5174a-1983-434c-9666-dd13328dd97d",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "7ab1b.selvarieno.cc",
-            "fingerprint": "firefox",
-            "publicKey": "rmzt4nEpcRRyTmuIpwlY6V-Bv_PH8GBbcywTtdsbr2M",
-            "shortId": "6f8857d6"
-          }
-        },
-        "tag": "hex-node-030 | 🇹🇷 Türkiye 01"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
               "address": "194.156.26.28",
               "port": 443,
               "users": [
@@ -826,7 +670,7 @@
             "fingerprint": "firefox"
           }
         },
-        "tag": "hex-node-031 | 🇩🇪 Германия 04"
+        "tag": "hex-node-030 | 🇩🇪 Германия 04"
       },
       {
         "protocol": "vless",
@@ -860,7 +704,7 @@
             ]
           }
         },
-        "tag": "hex-node-032 | 🇷🇺 Россия 06"
+        "tag": "hex-node-031 | 🇷🇺 Россия 06"
       },
       {
         "protocol": "vmess",
@@ -887,7 +731,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-033 | 🇩🇪 Германия 01"
+        "tag": "hex-node-032 | 🇩🇪 Германия 01"
       },
       {
         "protocol": "vmess",
@@ -914,7 +758,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-040 | 🇩🇪 Германия 03"
+        "tag": "hex-node-039 | 🇩🇪 Германия 03"
       },
       {
         "protocol": "vmess",
@@ -941,7 +785,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-042 | 🇫🇷 Франция 03"
+        "tag": "hex-node-041 | 🇫🇷 Франция 03"
       },
       {
         "protocol": "vmess",
@@ -968,7 +812,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-043 | 🇩🇪 Германия 04"
+        "tag": "hex-node-042 | 🇩🇪 Германия 04"
       },
       {
         "protocol": "vmess",
@@ -995,7 +839,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-073 | 🇫🇷 Франция 06"
+        "tag": "hex-node-072 | 🇫🇷 Франция 06"
       },
       {
         "protocol": "vmess",
@@ -1022,7 +866,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-080 | 🇸🇪 Швеция 01"
+        "tag": "hex-node-079 | 🇸🇪 Швеция 01"
       },
       {
         "protocol": "vmess",
@@ -1049,7 +893,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-088 | 🇳🇱 Нидерланды 36"
+        "tag": "hex-node-087 | 🇳🇱 Нидерланды 36"
       },
       {
         "protocol": "vmess",
@@ -1076,7 +920,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-090 | 🇫🇷 Франция 14"
+        "tag": "hex-node-089 | 🇫🇷 Франция 14"
       },
       {
         "protocol": "vmess",
@@ -1103,7 +947,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-100 | 🇬🇧 Великобритания 05"
+        "tag": "hex-node-099 | 🇬🇧 Великобритания 05"
       },
       {
         "protocol": "vmess",
@@ -1130,7 +974,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-103 | 🇸🇪 Швеция 03"
+        "tag": "hex-node-102 | 🇸🇪 Швеция 03"
       },
       {
         "protocol": "vmess",
@@ -1157,7 +1001,7 @@
             "fingerprint": "chrome"
           }
         },
-        "tag": "hex-node-112 | 🇫🇷 Франция 19"
+        "tag": "hex-node-111 | 🇫🇷 Франция 19"
       },
       {
         "tag": "direct",
