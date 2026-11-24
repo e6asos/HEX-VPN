@@ -3,13 +3,13 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "77 proxies (75 VLESS + 2 Hysteria + 0 Trojan)",
+      "85 proxies (85 VLESS + 0 Hysteria + 0 Trojan)",
       "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
     "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "source_datetime": "2026-11-24 05:12 Moscow"
+    "source_datetime": "2026-11-24 07:36 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -70,11 +70,11 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -131,11 +131,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -156,11 +156,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -181,11 +181,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -206,11 +206,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -231,11 +231,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -256,11 +256,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -281,11 +281,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -306,11 +306,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -331,11 +331,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -356,11 +356,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -381,11 +381,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -406,11 +406,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:api.mediaroshcha.cc",
-          "full:sw-api.telemetryapi.org",
           "full:files-qzgs.login.opendns.stream",
-          "full:e3.cdnwh.icu",
-          "full:alt.edge-assets.ru"
+          "full:sw-api.telemetryapi.org",
+          "full:hawthorn.falmero.store",
+          "full:moonwort.gerqix.autos",
+          "full:e3.cdnwh.icu"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -492,36 +492,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.252.145",
+            "address": "95.129.236.239",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {
+            "Host": "files-qzgs.login.opendns.stream"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tarakan.belka.tv",
-          "fingerprint": "firefox",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "edge"
         }
       }
     },
@@ -531,36 +529,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.252.145",
+            "address": "95.129.236.239",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {
+            "Host": "files-qzgs.login.opendns.stream"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tarakan.belka.tv",
-          "fingerprint": "firefox",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -570,36 +566,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.252.145",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tarakan.belka.tv",
-          "fingerprint": "chrome",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "edge",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -609,36 +604,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.252.145",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tarakan.belka.tv",
-          "fingerprint": "safari",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -648,36 +642,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "168.113.252.145",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "tarakan.belka.tv",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
           "fingerprint": "qq",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -687,36 +680,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.2",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "101f4da5-cad5-4009-888d-8d24f496bbd9",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "android",
+          "alpn": [
+            "http%2F1.1"
+          ]
         }
       }
     },
@@ -726,36 +718,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "api.mediaroshcha.cc",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "101f4da5-cad5-4009-888d-8d24f496bbd9",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "edge",
+          "alpn": [
+            "http%2F1.1"
+          ]
         }
       }
     },
@@ -765,439 +756,40 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.2",
+            "address": "files-qzgs.login.opendns.stream",
             "port": 443,
             "users": [
               {
-                "id": "2570eecd-e2d2-411a-b474-b7a63454484b",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "safari",
+          "alpn": [
+            "http%2F1.1"
+          ]
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел I",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.234.108",
-            "port": 8443,
-            "users": [
-              {
-                "id": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "01ef4cdceb3b3439",
-          "multiMode": false
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rowan-quay.cdn.cachefleet.com",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел J",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.234.108",
-            "port": 8443,
-            "users": [
-              {
-                "id": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "01ef4cdceb3b3439",
-          "multiMode": false
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rowan-quay.cdn.cachefleet.com",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел K",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.234.108",
-            "port": 8443,
-            "users": [
-              {
-                "id": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "01ef4cdceb3b3439",
-          "multiMode": false
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rowan-quay.cdn.cachefleet.com",
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел L",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.234.108",
-            "port": 8443,
-            "users": [
-              {
-                "id": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "01ef4cdceb3b3439",
-          "multiMode": false
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rowan-quay.cdn.cachefleet.com",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел M",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "95.129.234.108",
-            "port": 8443,
-            "users": [
-              {
-                "id": "d86e6fda-e519-46ab-98eb-9ff9a9da5984",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "01ef4cdceb3b3439",
-          "multiMode": false
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rowan-quay.cdn.cachefleet.com",
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел N",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.108.245.73",
-            "port": 443,
-            "users": [
-              {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pawuk.belka.tv",
-          "fingerprint": "firefox",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел O",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "176.108.245.73",
-            "port": 443,
-            "users": [
-              {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pawuk.belka.tv",
-          "fingerprint": "qq",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел P",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "82.202.139.215",
-            "port": 9881,
-            "users": [
-              {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-          "shortId": "aa"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел Q",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.132.178.247",
-            "port": 9881,
-            "users": [
-              {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-          "shortId": "aabb"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел R",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.15",
-            "port": 443,
-            "users": [
-              {
-                "id": "101f4da5-cad5-4009-888d-8d24f496bbd9",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел S",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.15",
-            "port": 443,
-            "users": [
-              {
-                "id": "2570eecd-e2d2-411a-b474-b7a63454484b",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел T",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1239,6 +831,470 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "edge",
+          "alpn": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел J",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "h3",
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел K",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2",
+            "h3",
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел L",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2",
+            "h3",
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел M",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2",
+            "h3",
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел N",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел O",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел P",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama1455.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел Q",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama1455.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел R",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama1455.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama1455.baklajann.ru",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел S",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "newmama.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newmama.baklajann.ru",
+          "fingerprint": "android"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел T",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "newmama.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "newmama.baklajann.ru",
           "fingerprint": "chrome"
         }
       }
@@ -1286,7 +1342,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "newmama.baklajann.ru",
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         }
       }
     },
@@ -1333,7 +1389,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1455.baklajann.ru",
-          "fingerprint": "edge",
+          "fingerprint": "android",
           "alpn": [
             "h3",
             "h2",
@@ -1447,6 +1503,100 @@
       "settings": {
         "vnext": [
           {
+            "address": "45.67.215.17",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama51.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama51.baklajann.ru",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел Z",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.17",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama51.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama51.baklajann.ru",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AA",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "45.67.215.20",
             "port": 443,
             "users": [
@@ -1489,7 +1639,101 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел Z",
+      "tag": "⚪ HEX | БС | Узел AB",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "19.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "19.baklajann.ru",
+          "fingerprint": "ios"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "19.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "19.baklajann.ru",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AD",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1536,162 +1780,6 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AA",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.67.215.20",
-            "port": 443,
-            "users": [
-              {
-                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AB",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.67.215.20",
-            "port": 443,
-            "users": [
-              {
-                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "ios",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AC",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.67.215.20",
-            "port": 443,
-            "users": [
-              {
-                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "qq",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AD",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.67.215.20",
-            "port": 443,
-            "users": [
-              {
-                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "safari",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
       "tag": "⚪ HEX | БС | Узел AE",
       "protocol": "vless",
       "settings": {
@@ -1716,12 +1804,25 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "mode": "auto"
+          "host": "mama1472.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "firefox"
+          "fingerprint": "ios"
         }
       }
     },
@@ -1750,12 +1851,25 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "mode": "auto"
+          "host": "mama1472.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "edge"
+          "fingerprint": "safari"
         }
       }
     },
@@ -1789,7 +1903,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1823,12 +1937,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "mama1472.baklajann.ru",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h2",
-            "h3",
-            "http/1.1"
-          ]
+          "fingerprint": "edge"
         }
       }
     },
@@ -1838,11 +1947,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "45.67.215.20",
             "port": 443,
             "users": [
               {
-                "id": "6bd1d88f-0a26-4d21-b325-15d85120b883",
+                "id": "da500c8e-990b-4d84-abca-b675280c1651",
                 "encryption": "none"
               }
             ]
@@ -1850,22 +1959,19 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/api/v2/client/session/connect",
-          "headers": {
-            "Host": "sw-api.telemetryapi.org"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "safari"
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1875,11 +1981,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "45.67.215.20",
             "port": 443,
             "users": [
               {
-                "id": "6bd1d88f-0a26-4d21-b325-15d85120b883",
+                "id": "da500c8e-990b-4d84-abca-b675280c1651",
                 "encryption": "none"
               }
             ]
@@ -1887,22 +1993,19 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/api/v2/client/session/connect",
-          "headers": {
-            "Host": "sw-api.telemetryapi.org"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "auto"
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "android"
+          "serverName": "mama1472.baklajann.ru",
+          "fingerprint": "qq"
         }
       }
     },
@@ -1912,7 +2015,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "sw-api.telemetryapi.org",
             "port": 443,
             "users": [
               {
@@ -1932,14 +2035,12 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {
-            "Host": "sw-api.telemetryapi.org"
-          }
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1974,7 +2075,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "android",
+          "fingerprint": "chrome",
           "alpn": [
             "http/1.1"
           ]
@@ -1987,11 +2088,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "sw-api.telemetryapi.org",
+            "address": "95.129.236.239",
             "port": 443,
             "users": [
               {
-                "id": "6bd1d88f-0a26-4d21-b325-15d85120b883",
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
                 "encryption": "none"
               }
             ]
@@ -2006,16 +2107,15 @@
           "dialerProxy": "fragment"
         },
         "wsSettings": {
-          "path": "/api/v2/client/session/connect",
-          "headers": {}
+          "path": "/origin/246825491/fetch",
+          "headers": {
+            "Host": "files-qzgs.login.opendns.stream"
+          }
         },
         "security": "tls",
         "tlsSettings": {
-          "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "safari",
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "safari"
         }
       }
     },
@@ -2025,7 +2125,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "sw-api.telemetryapi.org",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
@@ -2045,15 +2145,14 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {}
+          "headers": {
+            "Host": "sw-api.telemetryapi.org"
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "qq",
-          "alpn": [
-            "http/1.1"
-          ]
+          "fingerprint": "chrome"
         }
       }
     },
@@ -2063,7 +2162,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "sw-api.telemetryapi.org",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
@@ -2083,12 +2182,14 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {}
+          "headers": {
+            "Host": "sw-api.telemetryapi.org"
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "android"
+          "fingerprint": "edge"
         }
       }
     },
@@ -2098,7 +2199,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "sw-api.telemetryapi.org",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
@@ -2118,14 +2219,14 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {}
+          "headers": {
+            "Host": "sw-api.telemetryapi.org"
+          }
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "alpn": [
-            "http%252F1.1"
-          ]
+          "fingerprint": "safari"
         }
       }
     },
@@ -2160,10 +2261,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http%252F1.1"
-          ]
+          "fingerprint": "android"
         }
       }
     },
@@ -2198,10 +2296,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "edge",
-          "alpn": [
-            "http%2F1.1"
-          ]
+          "fingerprint": "safari"
         }
       }
     },
@@ -2231,14 +2326,15 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {
-            "Host": "sw-api.telemetryapi.org"
-          }
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "firefox"
+          "fingerprint": "ios",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -2268,14 +2364,15 @@
         },
         "wsSettings": {
           "path": "/api/v2/client/session/connect",
-          "headers": {
-            "Host": "sw-api.telemetryapi.org"
-          }
+          "headers": {}
         },
         "security": "tls",
         "tlsSettings": {
           "serverName": "sw-api.telemetryapi.org",
-          "fingerprint": "safari"
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -2310,9 +2407,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "files-qzgs.login.opendns.stream",
-          "alpn": [
-            "http%252F1.1"
-          ]
+          "fingerprint": "edge"
         }
       }
     },
@@ -2322,11 +2417,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.132.176.111",
-            "port": 9880,
+            "address": "files-qzgs.login.opendns.stream",
+            "port": 443,
             "users": [
               {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
                 "encryption": "none"
               }
             ]
@@ -2334,20 +2429,20 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -2357,11 +2452,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.202.157.95",
-            "port": 9881,
+            "address": "files-qzgs.login.opendns.stream",
+            "port": 443,
             "users": [
               {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
+                "id": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
                 "encryption": "none"
               }
             ]
@@ -2369,20 +2464,20 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
+        "wsSettings": {
+          "path": "/origin/246825491/fetch",
+          "headers": {}
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "files-qzgs.login.opendns.stream",
+          "fingerprint": "qq"
         }
       }
     },
@@ -2392,11 +2487,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.132.179.46",
-            "port": 9881,
+            "address": "hawthorn.falmero.store",
+            "port": 443,
             "users": [
               {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
                 "encryption": "none"
               }
             ]
@@ -2404,21 +2499,23 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
+        "xhttpSettings": {
+          "path": "/api/de7/preview/",
+          "host": "paperbirch.merlano.monster",
+          "mode": "packet-up"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0",
-          "shortId": "aabb"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "paperbirch.merlano.monster",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -2428,36 +2525,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.30",
+            "address": "hawthorn.falmero.store",
             "port": 443,
             "users": [
               {
-                "id": "101f4da5-cad5-4009-888d-8d24f496bbd9",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/api/de7/preview/",
+          "host": "paperbirch.merlano.monster",
+          "mode": "packet-up"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediatropa.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "paperbirch.merlano.monster",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
@@ -2467,11 +2563,268 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.242.100.134",
+            "address": "hawthorn.falmero.store",
             "port": 443,
             "users": [
               {
-                "id": "1b7ee703-fa08-4305-8469-ae3e30e61e44",
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de7/preview/",
+          "host": "paperbirch.merlano.monster",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "paperbirch.merlano.monster",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BA",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BB",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BD",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BE",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BF",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "moonwort.gerqix.autos",
+            "port": 443,
+            "users": [
+              {
+                "id": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/de6/preview/",
+          "host": "birchmeadow.moltex.click",
+          "mode": "packet-up"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "birchmeadow.moltex.click",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BG",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.135.82.166",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -2493,15 +2846,280 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "tarakan.belka.tv",
+          "serverName": "ds3mibec.vaultcache.shop",
           "fingerprint": "firefox",
-          "publicKey": "_qSbW4JL4Ffqvj25vX-6a2ul9Qlj6PBdlF0ghsf_0RQ",
-          "shortId": "a9dc98a7dc87a7dc"
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
         }
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BA",
+      "tag": "⚪ HEX | БС | Узел BH",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.135.82.166",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ds3mibec.vaultcache.shop",
+          "fingerprint": "qq",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BI",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "185.135.82.166",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ds3mibec.vaultcache.shop",
+          "fingerprint": "safari",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BJ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.34.136.78",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fjn2vd4dgxb6.dynarix-node41.sbs",
+          "fingerprint": "android",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BK",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.34.136.78",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fjn2vd4dgxb6.dynarix-node41.sbs",
+          "fingerprint": "chrome",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BL",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "201.34.136.78",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "fjn2vd4dgxb6.dynarix-node41.sbs",
+          "fingerprint": "firefox",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BM",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "171.22.129.227",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nujd35aknu.static-mirror.site",
+          "fingerprint": "android",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BN",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "171.22.129.227",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nujd35aknu.static-mirror.site",
+          "fingerprint": "chrome",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BO",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2539,7 +3157,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BB",
+      "tag": "⚪ HEX | БС | Узел BP",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2586,7 +3204,101 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BC",
+      "tag": "⚪ HEX | БС | Узел BQ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama542.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama542.baklajann.ru",
+          "fingerprint": "edge"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BR",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.111",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama542.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama542.baklajann.ru",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BS",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2633,16 +3345,16 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BD",
+      "tag": "⚪ HEX | БС | Узел BT",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "45.132.179.211",
-            "port": 9894,
+            "address": "45.67.215.20",
+            "port": 443,
             "users": [
               {
-                "id": "e460e7b2-a146-4468-87ed-52510b2caae6",
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
                 "encryption": "none"
               }
             ]
@@ -2650,26 +3362,312 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "grpcSettings": {
-          "serviceName": "grpc-tunnel",
-          "multiMode": true
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama511.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "dl.google.com",
-          "fingerprint": "qq",
-          "publicKey": "sm3E3hjmT6_Gmg_O9rBz4nfXYrHpnl6-LvcCp6T6_xc",
-          "shortId": "aabbccdd"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama511.baklajann.ru",
+          "fingerprint": "edge"
         }
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BE",
+      "tag": "⚪ HEX | БС | Узел BU",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.67.215.20",
+            "port": 443,
+            "users": [
+              {
+                "id": "2b7a122f-f6ff-4860-a919-7bf51be03c02",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/",
+          "host": "mama511.baklajann.ru",
+          "mode": "auto",
+          "extra": {
+            "mode": "packet-up",
+            "path": "/",
+            "xmux": {
+              "maxConnections": 4,
+              "maxConcurrency": 0,
+              "cMaxReuseTimes": 0,
+              "hMaxRequestTimes": "600-900",
+              "hMaxReusableSecs": "1800-3000",
+              "hKeepAlivePeriod": 0
+            }
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "mama511.baklajann.ru",
+          "fingerprint": "safari"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BV",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.213.56",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "zkgbzlv5d42.vortenix-data59.cfd",
+          "fingerprint": "chrome",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BW",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.213.56",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "zkgbzlv5d42.vortenix-data59.cfd",
+          "fingerprint": "firefox",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BX",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "147.45.213.56",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "zkgbzlv5d42.vortenix-data59.cfd",
+          "fingerprint": "safari",
+          "publicKey": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BY",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.246.138.161",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "q88k7v7gi0pg.img-assets.world",
+          "fingerprint": "chrome",
+          "publicKey": "jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BZ",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.246.138.161",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "q88k7v7gi0pg.img-assets.world",
+          "fingerprint": "edge",
+          "publicKey": "jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел CA",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.246.138.161",
+            "port": 443,
+            "users": [
+              {
+                "id": "42c83523-9f96-41b2-82d6-2edb71a4ac19",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "q88k7v7gi0pg.img-assets.world",
+          "fingerprint": "firefox",
+          "publicKey": "jFqwGpIrZSPqlvF4XglDWhsuHxljBLeiaMtESLsZsVk"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел CB",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2709,7 +3707,127 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BF",
+      "tag": "⚪ HEX | БС | Узел CC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "e3.cdnwh.icu",
+            "port": 443,
+            "users": [
+              {
+                "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/edge/chunk/b2265efffa29/",
+          "headers": {
+            "Host": "e3.cdnwh.icu"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e3.cdnwh.icu",
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел CD",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "e3.cdnwh.icu",
+            "port": 443,
+            "users": [
+              {
+                "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/edge/chunk/b2265efffa29/",
+          "headers": {
+            "Host": "e3.cdnwh.icu"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e3.cdnwh.icu",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел CE",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "e3.cdnwh.icu",
+            "port": 443,
+            "users": [
+              {
+                "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "wsSettings": {
+          "path": "/edge/chunk/b2265efffa29/",
+          "headers": {
+            "Host": "e3.cdnwh.icu"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "e3.cdnwh.icu",
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел CF",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2749,7 +3867,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел BG",
+      "tag": "⚪ HEX | БС | Узел CG",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2785,651 +3903,6 @@
           "alpn": [
             "http/1.1"
           ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BH",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "e3.cdnwh.icu",
-            "port": 443,
-            "users": [
-              {
-                "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/edge/chunk/b2265efffa29/",
-          "headers": {
-            "Host": "e3.cdnwh.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "e3.cdnwh.icu",
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BI",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "e3.cdnwh.icu",
-            "port": 443,
-            "users": [
-              {
-                "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/edge/chunk/b2265efffa29/",
-          "headers": {
-            "Host": "e3.cdnwh.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "e3.cdnwh.icu",
-          "fingerprint": "safari",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BJ",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.177.111.225",
-            "port": 443,
-            "users": [
-              {
-                "id": "fdd8114b-977d-4bb1-b675-a20af8ad41f5",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e/82tjjqcl-zc2ywbqi-6v0lp8td-u9yssr5w/api/v1/nhde5se4/sync/",
-          "mode": "packet-up"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "alt.edge-assets.ru",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BK",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "alt.edge-assets.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "fdd8114b-977d-4bb1-b675-a20af8ad41f5",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e/82tjjqcl-zc2ywbqi-6v0lp8td-u9yssr5w/api/v1/nhde5se4/sync/",
-          "host": "alt.edge-assets.ru",
-          "mode": "packet-up"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "alt.edge-assets.ru",
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BL",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "alt.edge-assets.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "fdd8114b-977d-4bb1-b675-a20af8ad41f5",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e/82tjjqcl-zc2ywbqi-6v0lp8td-u9yssr5w/api/v1/nhde5se4/sync/",
-          "host": "alt.edge-assets.ru",
-          "mode": "packet-up"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "alt.edge-assets.ru",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BM",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "ios"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BN",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BO",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BP",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "edge"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BQ",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "212.116.115.69",
-            "port": 443,
-            "users": [
-              {
-                "id": "cd3d8e5c-794f-4c34-8222-59d3e99e35fe",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "joeypg.ezbiz.dynv6.net"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "joeypg.ezbiz.dynv6.net",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BR",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.237.107",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BS",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "84.54.57.138",
-            "port": 443,
-            "users": [
-              {
-                "id": "cd3d8e5c-794f-4c34-8222-59d3e99e35fe",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/",
-          "headers": {
-            "Host": "joeypg.ezbiz.dynv6.net"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "joeypg.ezbiz.dynv6.net",
-          "fingerprint": "firefox"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BT",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "safari"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BU",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "72.56.237.107",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "android"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BV",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "46.149.66.235",
-            "port": 443,
-            "users": [
-              {
-                "id": "1c0250ec-2dbc-40be-bd18-90b5e812ceaa",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "pg.fm6dw.dpdns.org"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "pg.fm6dw.dpdns.org",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BW",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "212.116.115.69",
-            "port": 443,
-            "users": [
-              {
-                "id": "cd3d8e5c-794f-4c34-8222-59d3e99e35fe",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/?ed=2048",
-          "headers": {
-            "Host": "joeypg.ezbiz.dynv6.net"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "joeypg.ezbiz.dynv6.net",
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BX",
-      "protocol": "hysteria",
-      "settings": {
-        "version": 2,
-        "address": "189.74.106.173",
-        "port": 54183
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "101f4da5-cad5-4009-888d-8d24f496bbd9"
-        },
-        "tlsSettings": {
-          "serverName": "outh.yandex-cloud.org",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BY",
-      "protocol": "hysteria",
-      "settings": {
-        "version": 2,
-        "address": "189.74.114.46",
-        "port": 54183
-      },
-      "streamSettings": {
-        "network": "hysteria",
-        "security": "tls",
-        "hysteriaSettings": {
-          "version": 2,
-          "auth": "101f4da5-cad5-4009-888d-8d24f496bbd9"
-        },
-        "tlsSettings": {
-          "serverName": "outh.yandex-cloud.org",
-          "alpn": [
-            "h3"
-          ]
-        },
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
         }
       }
     },
