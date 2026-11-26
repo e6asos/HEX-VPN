@@ -3,13 +3,13 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "38 proxies (38 VLESS + 0 Hysteria + 0 Trojan)",
+      "64 proxies (31 VLESS + 0 Hysteria + 33 Trojan)",
       "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
     "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "source_datetime": "2026-11-26 17:28 Moscow"
+    "source_datetime": "2026-11-26 20:02 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -71,11 +71,11 @@
           "domain:lan",
           "regexp:^[^.]+$",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -133,11 +133,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -159,11 +159,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -185,11 +185,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -211,11 +211,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -237,11 +237,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -263,11 +263,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -289,11 +289,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -315,11 +315,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -341,11 +341,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -367,11 +367,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -393,11 +393,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -419,11 +419,11 @@
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
           "full:r3.pythonmakemigreat.wiki",
-          "full:r4.pythonmakemigreat.wiki",
-          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-          "full:ggssstreaming.ru",
+          "full:r8.pythonmakemigreat.wiki",
           "full:api.ggssstreaming.ru",
-          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru"
+          "full:yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
+          "full:ru-1.krugvpn.me"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -689,7 +689,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r3.pythonmakemigreat.wiki",
+            "address": "r8.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -721,10 +721,9 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "safari",
+          "serverName": "cdn.study.golangwikito.cfd",
+          "fingerprint": "chrome",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
           "spiderX": "/"
         }
       }
@@ -735,7 +734,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
+            "address": "r8.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -754,21 +753,23 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "host": "r4.pythonmakemigreat.wiki",
           "mode": "packet-up",
           "extra": {
-            "xPaddingBytes": "100-500",
             "xmux": {
-              "maxConnections": "3"
-            }
+              "maxConnections": 3
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxBufferedPosts": 10,
+            "scMaxEachPostBytes": "500000-1000000",
+            "scMinPostsIntervalMs": "20-40"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "android",
+          "serverName": "cdn.study.golangwikito.cfd",
+          "fingerprint": "firefox",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c"
+          "spiderX": "/"
         }
       }
     },
@@ -778,7 +779,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
+            "address": "r8.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -797,21 +798,23 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "host": "r4.pythonmakemigreat.wiki",
           "mode": "packet-up",
           "extra": {
-            "xPaddingBytes": "100-500",
             "xmux": {
-              "maxConnections": "3"
-            }
+              "maxConnections": 3
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxBufferedPosts": 10,
+            "scMaxEachPostBytes": "500000-1000000",
+            "scMinPostsIntervalMs": "20-40"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "chrome",
+          "serverName": "cdn.study.golangwikito.cfd",
+          "fingerprint": "ios",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c"
+          "spiderX": "/"
         }
       }
     },
@@ -821,7 +824,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
+            "address": "r8.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -840,21 +843,23 @@
         },
         "xhttpSettings": {
           "path": "/",
-          "host": "r4.pythonmakemigreat.wiki",
           "mode": "packet-up",
           "extra": {
-            "xPaddingBytes": "100-500",
             "xmux": {
-              "maxConnections": "3"
-            }
+              "maxConnections": 3
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxBufferedPosts": 10,
+            "scMaxEachPostBytes": "500000-1000000",
+            "scMinPostsIntervalMs": "20-40"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "firefox",
+          "serverName": "cdn.study.golangwikito.cfd",
+          "fingerprint": "qq",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c"
+          "spiderX": "/"
         }
       }
     },
@@ -864,40 +869,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
+            "address": "109.248.239.192",
             "port": 8443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "8f092ef0-a7e6-03e9-b989-836aebc00ff7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "host": "r4.pythonmakemigreat.wiki",
-          "mode": "packet-up",
-          "extra": {
-            "xPaddingBytes": "100-500",
-            "xmux": {
-              "maxConnections": "3"
-            }
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "ios",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c"
+          "serverName": "ya.ru",
+          "fingerprint": "android",
+          "publicKey": "DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY",
+          "shortId": "abc123"
         }
       }
     },
@@ -907,40 +908,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
+            "address": "109.248.239.192",
             "port": 8443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "8f092ef0-a7e6-03e9-b989-836aebc00ff7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "host": "r4.pythonmakemigreat.wiki",
-          "mode": "packet-up",
-          "extra": {
-            "xPaddingBytes": "100-500",
-            "xmux": {
-              "maxConnections": "3"
-            }
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "safari",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c"
+          "serverName": "ya.ru",
+          "fingerprint": "edge",
+          "publicKey": "DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY",
+          "shortId": "abc123"
         }
       }
     },
@@ -950,34 +947,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
-            "port": 443,
+            "address": "109.248.239.192",
+            "port": 8443,
             "users": [
               {
-                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
-                "encryption": "none"
+                "id": "8f092ef0-a7e6-03e9-b989-836aebc00ff7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/session",
-          "headers": {
-            "Host": "api.14887277.xyz"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trx.tools",
-          "fingerprint": "android"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ya.ru",
+          "fingerprint": "firefox",
+          "publicKey": "DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY",
+          "shortId": "abc123"
         }
       }
     },
@@ -987,34 +986,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
-            "port": 443,
+            "address": "109.248.239.192",
+            "port": 8443,
             "users": [
               {
-                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
-                "encryption": "none"
+                "id": "8f092ef0-a7e6-03e9-b989-836aebc00ff7",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "wsSettings": {
-          "path": "/session",
-          "headers": {
-            "Host": "api.14887277.xyz"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trx.tools",
-          "fingerprint": "qq"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ya.ru",
+          "fingerprint": "qq",
+          "publicKey": "DulhUFMYzxIsucjtPONJQMszzyi9V6bqQ9WI3GjGFAY",
+          "shortId": "abc123"
         }
       }
     },
@@ -1024,11 +1025,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "111.88.126.223",
             "port": 443,
             "users": [
               {
-                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
+                "id": "8f154051-5b60-4e04-8880-a416c133a61b",
                 "encryption": "none"
               }
             ]
@@ -1036,22 +1037,22 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/session",
-          "headers": {
-            "Host": "api.14887277.xyz"
-          }
+        "grpcSettings": {
+          "serviceName": "pn.sync",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trx.tools",
-          "fingerprint": "edge"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pn.askme.ooo",
+          "fingerprint": "chrome",
+          "publicKey": "eaVqwSSLbNGpm_bgN-V6z9AUQk451-IcMNTD7s0W8SM",
+          "shortId": "55aa9038",
+          "spiderX": "/"
         }
       }
     },
@@ -1061,11 +1062,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "111.88.126.223",
             "port": 443,
             "users": [
               {
-                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
+                "id": "8f154051-5b60-4e04-8880-a416c133a61b",
                 "encryption": "none"
               }
             ]
@@ -1073,22 +1074,22 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/session",
-          "headers": {
-            "Host": "api.14887277.xyz"
-          }
+        "grpcSettings": {
+          "serviceName": "pn.sync",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trx.tools",
-          "fingerprint": "firefox"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pn.askme.ooo",
+          "fingerprint": "edge",
+          "publicKey": "eaVqwSSLbNGpm_bgN-V6z9AUQk451-IcMNTD7s0W8SM",
+          "shortId": "55aa9038",
+          "spiderX": "/"
         }
       }
     },
@@ -1098,11 +1099,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.167",
+            "address": "111.88.126.223",
             "port": 443,
             "users": [
               {
-                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
+                "id": "8f154051-5b60-4e04-8880-a416c133a61b",
                 "encryption": "none"
               }
             ]
@@ -1110,22 +1111,22 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "wsSettings": {
-          "path": "/session",
-          "headers": {
-            "Host": "api.14887277.xyz"
-          }
+        "grpcSettings": {
+          "serviceName": "pn.sync",
+          "multiMode": false
         },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "trx.tools",
-          "fingerprint": "ios"
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pn.askme.ooo",
+          "fingerprint": "firefox",
+          "publicKey": "eaVqwSSLbNGpm_bgN-V6z9AUQk451-IcMNTD7s0W8SM",
+          "shortId": "55aa9038",
+          "spiderX": "/"
         }
       }
     },
@@ -1135,11 +1136,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "111.88.126.223",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "id": "8f154051-5b60-4e04-8880-a416c133a61b",
                 "encryption": "none"
               }
             ]
@@ -1147,29 +1148,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "grpc",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60
         },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
-          }
+        "grpcSettings": {
+          "serviceName": "pn.sync",
+          "multiMode": false
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
+          "serverName": "pn.askme.ooo",
           "fingerprint": "ios",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+          "publicKey": "eaVqwSSLbNGpm_bgN-V6z9AUQk451-IcMNTD7s0W8SM",
+          "shortId": "55aa9038",
+          "spiderX": "/"
         }
       }
     },
@@ -1179,41 +1173,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "138.16.226.235",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "ebb1749d-940c-4660-83eb-847d5f7cc24b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "android",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+          "serverName": "ya.ru",
+          "fingerprint": "chrome",
+          "publicKey": "ZcEChm47qK_AS7xh7nARfAPK49s5XwwOIUFmQpyVHzE",
+          "shortId": "f0736ed984be25fa"
         }
       }
     },
@@ -1223,41 +1212,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "138.16.226.235",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "ebb1749d-940c-4660-83eb-847d5f7cc24b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "chrome",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+          "serverName": "ya.ru",
+          "fingerprint": "firefox",
+          "publicKey": "ZcEChm47qK_AS7xh7nARfAPK49s5XwwOIUFmQpyVHzE",
+          "shortId": "f0736ed984be25fa"
         }
       }
     },
@@ -1267,41 +1251,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "138.16.226.235",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "ebb1749d-940c-4660-83eb-847d5f7cc24b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "firefox",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+          "serverName": "ya.ru",
+          "fingerprint": "ios",
+          "publicKey": "ZcEChm47qK_AS7xh7nARfAPK49s5XwwOIUFmQpyVHzE",
+          "shortId": "f0736ed984be25fa"
         }
       }
     },
@@ -1311,41 +1290,36 @@
       "settings": {
         "vnext": [
           {
-            "address": "r4.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "138.16.226.235",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-                "encryption": "none"
+                "id": "ebb1749d-940c-4660-83eb-847d5f7cc24b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
+        "rawSettings": {
+          "header": {
+            "type": "none"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
+          "serverName": "ya.ru",
           "fingerprint": "qq",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
+          "publicKey": "ZcEChm47qK_AS7xh7nARfAPK49s5XwwOIUFmQpyVHzE",
+          "shortId": "f0736ed984be25fa"
         }
       }
     },
@@ -1355,311 +1329,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "player.mediavitrina.ru",
-          "fingerprint": "android",
-          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
-          "shortId": "d4735e3a265e",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел V",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "player.mediavitrina.ru",
-          "fingerprint": "edge",
-          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
-          "shortId": "d4735e3a265e",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел W",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "player.mediavitrina.ru",
-          "fingerprint": "ios",
-          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
-          "shortId": "d4735e3a265e",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел X",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/9079121e08fa/0882e6d3",
-          "host": "ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ggssstreaming.ru",
-          "fingerprint": "edge",
-          "publicKey": "eEFdwr8aYs2rk6zKvJH1rZgA7ovy42WSH-iFa9K6cTU",
-          "shortId": "c8b4a5719bd797b8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел Y",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/9079121e08fa/0882e6d3",
-          "host": "ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ggssstreaming.ru",
-          "fingerprint": "ios",
-          "publicKey": "eEFdwr8aYs2rk6zKvJH1rZgA7ovy42WSH-iFa9K6cTU",
-          "shortId": "c8b4a5719bd797b8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел Z",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "api.ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/fc89f5f455d4/766e712c",
-          "host": "api.ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.ggssstreaming.ru",
-          "fingerprint": "android",
-          "publicKey": "r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ",
-          "shortId": "07b7580eec1fec3a"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AA",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "api.ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/fc89f5f455d4/766e712c",
-          "host": "api.ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.ggssstreaming.ru",
-          "fingerprint": "edge",
-          "publicKey": "r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ",
-          "shortId": "07b7580eec1fec3a"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AB",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "api.ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/fc89f5f455d4/766e712c",
-          "host": "api.ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.ggssstreaming.ru",
-          "fingerprint": "firefox",
-          "publicKey": "r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ",
-          "shortId": "07b7580eec1fec3a"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AC",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "api.ggssstreaming.ru",
             "port": 443,
             "users": [
@@ -1692,7 +1361,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AD",
+      "tag": "⚪ HEX | БС | Узел V",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1722,19 +1391,19 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "api.ggssstreaming.ru",
-          "fingerprint": "safari",
+          "fingerprint": "android",
           "publicKey": "r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ",
           "shortId": "07b7580eec1fec3a"
         }
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AE",
+      "tag": "⚪ HEX | БС | Узел W",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ggssstreaming.ru",
+            "address": "api.ggssstreaming.ru",
             "port": 443,
             "users": [
               {
@@ -1752,95 +1421,100 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/9079121e08fa/0882e6d3",
-          "host": "ggssstreaming.ru",
+          "path": "/fc89f5f455d4/766e712c",
+          "host": "api.ggssstreaming.ru",
           "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ggssstreaming.ru",
-          "fingerprint": "android",
-          "publicKey": "eEFdwr8aYs2rk6zKvJH1rZgA7ovy42WSH-iFa9K6cTU",
-          "shortId": "c8b4a5719bd797b8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AF",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ggssstreaming.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/9079121e08fa/0882e6d3",
-          "host": "ggssstreaming.ru",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ggssstreaming.ru",
+          "serverName": "api.ggssstreaming.ru",
           "fingerprint": "chrome",
-          "publicKey": "eEFdwr8aYs2rk6zKvJH1rZgA7ovy42WSH-iFa9K6cTU",
-          "shortId": "c8b4a5719bd797b8"
+          "publicKey": "r445h-YroH5eENllZFKxE6XndWGAc9SBPAzfyIHnajQ",
+          "shortId": "07b7580eec1fec3a"
         }
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AG",
+      "tag": "⚪ HEX | БС | Узел X",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "ggssstreaming.ru",
+            "address": "217.19.123.47",
             "port": 443,
             "users": [
               {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
+                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/9079121e08fa/0882e6d3",
-          "host": "ggssstreaming.ru",
-          "mode": "auto"
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "ggssstreaming.ru",
-          "fingerprint": "firefox",
-          "publicKey": "eEFdwr8aYs2rk6zKvJH1rZgA7ovy42WSH-iFa9K6cTU",
-          "shortId": "c8b4a5719bd797b8"
+          "serverName": "player.mediavitrina.ru",
+          "fingerprint": "chrome",
+          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
+          "shortId": "d4735e3a265e"
         }
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AH",
+      "tag": "⚪ HEX | БС | Узел Y",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+            "port": 443,
+            "users": [
+              {
+                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "player.mediavitrina.ru",
+          "fingerprint": "android",
+          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
+          "shortId": "d4735e3a265e",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел Z",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1880,47 +1554,7 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AI",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "yellow-5hmq5ehr3ievlnabv8l2.concept7.ru",
-            "port": 443,
-            "users": [
-              {
-                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "river-3-369.rtbcdn.ru",
-          "fingerprint": "firefox",
-          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
-          "shortId": "4b227777d4dd",
-          "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AJ",
+      "tag": "⚪ HEX | БС | Узел AA",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1960,7 +1594,126 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AK",
+      "tag": "⚪ HEX | БС | Узел AB",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "217.19.123.47",
+            "port": 443,
+            "users": [
+              {
+                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "player.mediavitrina.ru",
+          "fingerprint": "qq",
+          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
+          "shortId": "d4735e3a265e"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+            "port": 443,
+            "users": [
+              {
+                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "player.mediavitrina.ru",
+          "fingerprint": "edge",
+          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
+          "shortId": "d4735e3a265e",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AD",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+            "port": 443,
+            "users": [
+              {
+                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "player.mediavitrina.ru",
+          "fingerprint": "firefox",
+          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
+          "shortId": "d4735e3a265e",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AE",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2000,20 +1753,14 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел AL",
-      "protocol": "vless",
+      "tag": "⚪ HEX | БС | Узел AF",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "yellow-4hmq5ehr3ievlnabv8l2.concept7.ru",
+            "address": "5.101.51.138",
             "port": 443,
-            "users": [
-              {
-                "id": "48818046-00b5-4576-bbe8-d2971fe0f844",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "password": "cWM5aWtWR9"
           }
         ]
       },
@@ -2029,13 +1776,1101 @@
             "type": "none"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "player.mediavitrina.ru",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
           "fingerprint": "firefox",
-          "publicKey": "KEZ93Y9VgoirI18wIpcfS3z8I9GiaiFe-GKqGdEPMmg",
-          "shortId": "d4735e3a265e",
-          "spiderX": "/"
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AG",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AH",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AI",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AJ",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AK",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AL",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AM",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AN",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AO",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AP",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AQ",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AR",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AS",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AT",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AU",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 8443,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AV",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AW",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AX",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AY",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AZ",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BA",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BB",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BC",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2095,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BD",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BE",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BF",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BG",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BH",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BI",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ru-1.krugvpn.me",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BJ",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BK",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "ios",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел BL",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "5.101.51.138",
+            "port": 2097,
+            "password": "cWM5aWtWR9"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ru-1.krugvpn.me",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
         }
       }
     },
