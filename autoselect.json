@@ -2,7 +2,7 @@
   {
     "remarks": "⚡ HEX | АВТОВЫБОР",
     "meta": {
-      "serverDescription": "HEX VPN • 36 серверов прошли индивидуальный HTTPS-тест"
+      "serverDescription": "HEX VPN • 35 серверов прошли индивидуальный HTTPS-тест"
     },
     "log": {
       "loglevel": "warning"
@@ -508,41 +508,6 @@
           }
         },
         "tag": "hex-node-020 | 🇵🇱 Польша 01"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "devcdn.icu",
-              "port": 443,
-              "users": [
-                {
-                  "id": "b432a23a-acff-425c-bf69-70480cd6ed09",
-                  "encryption": "none"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "ws",
-          "security": "tls",
-          "wsSettings": {
-            "path": "/edge/chunk/b2265efffa29/",
-            "headers": {
-              "Host": "devcdn.icu"
-            }
-          },
-          "tlsSettings": {
-            "serverName": "devcdn.icu",
-            "fingerprint": "firefox",
-            "alpn": [
-              "http/1.1"
-            ]
-          }
-        },
-        "tag": "hex-node-021 | Сервер 23"
       },
       {
         "protocol": "vless",
