@@ -3,13 +3,13 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "60 proxies (60 VLESS + 0 Hysteria + 0 Trojan)",
+      "50 proxies (45 VLESS + 0 Hysteria + 5 Trojan)",
       "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
     "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "source_datetime": "2026-11-27 17:56 Moscow"
+    "source_datetime": "2026-11-27 22:53 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -70,12 +70,11 @@
           "domain:local",
           "domain:lan",
           "regexp:^[^.]+$",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -132,12 +131,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -158,12 +156,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -184,12 +181,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -210,12 +206,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -236,12 +231,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -262,12 +256,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -288,12 +281,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -314,12 +306,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -340,12 +331,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -366,12 +356,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -392,12 +381,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -418,12 +406,11 @@
           "full:wikimedia-dns.org",
           "full:dns.hostux.net",
           "full:blank.dnsforge.de",
-          "full:ru-bridge.funky-monkey.app",
-          "full:r2.pythonmakemigreat.wiki",
+          "full:r7.pythonmakemigreat.wiki",
+          "full:r9.pythonmakemigreat.wiki",
           "full:079b6et.ee5.h1clayd.shop",
           "full:e54b10x.ee5.h1clayd.shop",
-          "full:ru-cloudru.funky-monkey.app",
-          "full:ru-tmw.funky-monkey.app"
+          "full:ru-cloudru.funky-monkey.app"
         ],
         "skipFallback": true,
         "queryStrategy": "UseIPv4",
@@ -505,35 +492,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-bridge.funky-monkey.app",
-            "port": 443,
+            "address": "r7.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
+          "serverName": "cdn.study.golangwikito.cfd",
           "fingerprint": "android",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "shortId": "40a4b9403abe554c",
+          "spiderX": "/"
         }
       }
     },
@@ -543,35 +529,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-bridge.funky-monkey.app",
-            "port": 443,
+            "address": "r7.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
+          "serverName": "cdn.study.golangwikito.cfd",
           "fingerprint": "chrome",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "shortId": "40a4b9403abe554c",
+          "spiderX": "/"
         }
       }
     },
@@ -581,35 +566,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-bridge.funky-monkey.app",
-            "port": 443,
+            "address": "r7.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "firefox",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "serverName": "cdn.study.golangwikito.cfd",
+          "fingerprint": "edge",
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "shortId": "40a4b9403abe554c",
+          "spiderX": "/"
         }
       }
     },
@@ -619,35 +603,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-bridge.funky-monkey.app",
-            "port": 443,
+            "address": "r7.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
+          "serverName": "cdn.study.golangwikito.cfd",
           "fingerprint": "ios",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "shortId": "40a4b9403abe554c",
+          "spiderX": "/"
         }
       }
     },
@@ -657,35 +640,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-bridge.funky-monkey.app",
-            "port": 443,
+            "address": "r7.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
+          "serverName": "cdn.study.golangwikito.cfd",
           "fingerprint": "safari",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "shortId": "40a4b9403abe554c",
+          "spiderX": "/"
         }
       }
     },
@@ -695,7 +677,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r2.pythonmakemigreat.wiki",
+            "address": "r9.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -727,10 +709,9 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
+          "serverName": "stream.study.golangwikito.cfd",
           "fingerprint": "android",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
           "spiderX": "/"
         }
       }
@@ -741,7 +722,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r2.pythonmakemigreat.wiki",
+            "address": "r9.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -773,10 +754,9 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
+          "serverName": "stream.study.golangwikito.cfd",
           "fingerprint": "chrome",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
           "spiderX": "/"
         }
       }
@@ -787,7 +767,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r2.pythonmakemigreat.wiki",
+            "address": "r9.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -819,10 +799,9 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "firefox",
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "edge",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
           "spiderX": "/"
         }
       }
@@ -833,7 +812,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "r2.pythonmakemigreat.wiki",
+            "address": "r9.pythonmakemigreat.wiki",
             "port": 8443,
             "users": [
               {
@@ -865,10 +844,9 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "ios",
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "safari",
           "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
           "spiderX": "/"
         }
       }
@@ -879,11 +857,50 @@
       "settings": {
         "vnext": [
           {
-            "address": "r2.pythonmakemigreat.wiki",
-            "port": 8443,
+            "address": "079b6et.ee5.h1clayd.shop",
+            "port": 443,
             "users": [
               {
-                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "079b6et.ee5.h1clayd.shop",
+          "fingerprint": "safari",
+          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
+          "shortId": "35a329a23bb50d2b",
+          "spiderX": "/"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел K",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "e54b10x.ee5.h1clayd.shop",
+            "port": 443,
+            "users": [
+              {
+                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
                 "encryption": "none"
               }
             ]
@@ -897,64 +914,16 @@
           "tcpKeepAliveInterval": 60
         },
         "xhttpSettings": {
-          "path": "/",
-          "mode": "packet-up",
-          "extra": {
-            "xmux": {
-              "maxConnections": 3
-            },
-            "xPaddingBytes": "100-500",
-            "scMaxBufferedPosts": 10,
-            "scMaxEachPostBytes": "500000-1000000",
-            "scMinPostsIntervalMs": "20-40"
-          }
+          "path": "/ea1ae61a3ced",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "assets.study.golangwikito.cfd",
-          "fingerprint": "safari",
-          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
-          "shortId": "40a4b9403abe554c",
+          "serverName": "e54b10x.ee5.h1clayd.shop",
+          "fingerprint": "edge",
+          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
+          "shortId": "25e886ad1ab98159",
           "spiderX": "/"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел K",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.115.8",
-            "port": 443,
-            "users": [
-              {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "android",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
         }
       }
     },
@@ -964,36 +933,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.8",
+            "address": "e54b10x.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/ea1ae61a3ced",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "chrome",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "e54b10x.ee5.h1clayd.shop",
+          "fingerprint": "ios",
+          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
+          "shortId": "25e886ad1ab98159",
+          "spiderX": "/"
         }
       }
     },
@@ -1003,36 +970,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.8",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/session",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "trx.tools",
+          "fingerprint": "edge"
         }
       }
     },
@@ -1042,13 +1007,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.8",
+            "address": "079b6et.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "encryption": "none"
               }
             ]
           }
@@ -1068,10 +1032,11 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "qq",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "079b6et.ee5.h1clayd.shop",
+          "fingerprint": "android",
+          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
+          "shortId": "35a329a23bb50d2b",
+          "spiderX": "/"
         }
       }
     },
@@ -1081,13 +1046,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.115.8",
+            "address": "079b6et.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "encryption": "none"
               }
             ]
           }
@@ -1107,10 +1071,11 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediaroshcha.cc",
-          "fingerprint": "safari",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "079b6et.ee5.h1clayd.shop",
+          "fingerprint": "chrome",
+          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
+          "shortId": "35a329a23bb50d2b",
+          "spiderX": "/"
         }
       }
     },
@@ -1146,7 +1111,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "079b6et.ee5.h1clayd.shop",
-          "fingerprint": "chrome",
+          "fingerprint": "edge",
           "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
           "shortId": "35a329a23bb50d2b",
           "spiderX": "/"
@@ -1159,7 +1124,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "e54b10x.ee5.h1clayd.shop",
+            "address": "079b6et.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
@@ -1171,21 +1136,23 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/ea1ae61a3ced",
-          "mode": "auto"
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "e54b10x.ee5.h1clayd.shop",
-          "fingerprint": "chrome",
-          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
-          "shortId": "25e886ad1ab98159",
+          "serverName": "079b6et.ee5.h1clayd.shop",
+          "fingerprint": "firefox",
+          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
+          "shortId": "35a329a23bb50d2b",
           "spiderX": "/"
         }
       }
@@ -1220,7 +1187,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "e54b10x.ee5.h1clayd.shop",
-          "fingerprint": "edge",
+          "fingerprint": "android",
           "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
           "shortId": "25e886ad1ab98159",
           "spiderX": "/"
@@ -1233,7 +1200,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "079b6et.ee5.h1clayd.shop",
+            "address": "e54b10x.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
@@ -1245,23 +1212,21 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/ea1ae61a3ced",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "079b6et.ee5.h1clayd.shop",
-          "fingerprint": "android",
-          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
-          "shortId": "35a329a23bb50d2b",
+          "serverName": "e54b10x.ee5.h1clayd.shop",
+          "fingerprint": "chrome",
+          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
+          "shortId": "25e886ad1ab98159",
           "spiderX": "/"
         }
       }
@@ -1272,7 +1237,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "079b6et.ee5.h1clayd.shop",
+            "address": "e54b10x.ee5.h1clayd.shop",
             "port": 443,
             "users": [
               {
@@ -1284,23 +1249,21 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/ea1ae61a3ced",
+          "mode": "auto"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "079b6et.ee5.h1clayd.shop",
-          "fingerprint": "edge",
-          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
-          "shortId": "35a329a23bb50d2b",
+          "serverName": "e54b10x.ee5.h1clayd.shop",
+          "fingerprint": "firefox",
+          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
+          "shortId": "25e886ad1ab98159",
           "spiderX": "/"
         }
       }
@@ -1311,11 +1274,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "079b6et.ee5.h1clayd.shop",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
-                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
                 "encryption": "none"
               }
             ]
@@ -1323,24 +1286,22 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/session",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "079b6et.ee5.h1clayd.shop",
-          "fingerprint": "firefox",
-          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
-          "shortId": "35a329a23bb50d2b",
-          "spiderX": "/"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "trx.tools",
+          "fingerprint": "android"
         }
       }
     },
@@ -1350,11 +1311,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "079b6et.ee5.h1clayd.shop",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
-                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
                 "encryption": "none"
               }
             ]
@@ -1362,24 +1323,22 @@
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/session",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "079b6et.ee5.h1clayd.shop",
-          "fingerprint": "safari",
-          "publicKey": "NMS-P97L7IrYGl7mQv1j2K_EBX6G57fu6DvREZYl01U",
-          "shortId": "35a329a23bb50d2b",
-          "spiderX": "/"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "trx.tools",
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1389,11 +1348,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "e54b10x.ee5.h1clayd.shop",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
-                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
                 "encryption": "none"
               }
             ]
@@ -1401,22 +1360,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/ea1ae61a3ced",
-          "mode": "auto"
+        "wsSettings": {
+          "path": "/session",
+          "headers": {
+            "Host": "api.14887277.xyz"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "e54b10x.ee5.h1clayd.shop",
-          "fingerprint": "android",
-          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
-          "shortId": "25e886ad1ab98159",
-          "spiderX": "/"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "trx.tools",
+          "fingerprint": "ios"
         }
       }
     },
@@ -1426,11 +1385,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "e54b10x.ee5.h1clayd.shop",
+            "address": "185.178.208.167",
             "port": 443,
             "users": [
               {
-                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
+                "id": "c2b17066-5386-0001-803b-5e652c0528f9",
                 "encryption": "none"
               }
             ]
@@ -1438,22 +1397,22 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/ea1ae61a3ced",
-          "mode": "auto"
+        "wsSettings": {
+          "path": "/session",
+          "headers": {
+            "Host": "api.14887277.xyz"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "e54b10x.ee5.h1clayd.shop",
-          "fingerprint": "ios",
-          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
-          "shortId": "25e886ad1ab98159",
-          "spiderX": "/"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "trx.tools",
+          "fingerprint": "safari"
         }
       }
     },
@@ -1463,34 +1422,35 @@
       "settings": {
         "vnext": [
           {
-            "address": "e54b10x.ee5.h1clayd.shop",
+            "address": "ru-cloudru.funky-monkey.app",
             "port": 443,
             "users": [
               {
-                "id": "73ebb72a-e2a8-44c8-a0e3-938740a4f578",
-                "encryption": "none"
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "raw",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/ea1ae61a3ced",
-          "mode": "auto"
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "e54b10x.ee5.h1clayd.shop",
-          "fingerprint": "safari",
-          "publicKey": "v1FVRnLI528QxPA-jy2AEzpyFVQq7e4CbUzxSRNHRXg",
-          "shortId": "25e886ad1ab98159",
-          "spiderX": "/"
+          "serverName": "steam-videos.cc",
+          "fingerprint": "chrome",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
     },
@@ -1500,11 +1460,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.117.23",
+            "address": "ru-cloudru.funky-monkey.app",
             "port": 443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -1526,171 +1486,14 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "android",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "steam-videos.cc",
+          "fingerprint": "edge",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AA",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.23",
-            "port": 443,
-            "users": [
-              {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "edge",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AB",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.23",
-            "port": 443,
-            "users": [
-              {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AC",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.23",
-            "port": 443,
-            "users": [
-              {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "ios",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AD",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "189.74.117.23",
-            "port": 443,
-            "users": [
-              {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api.videodolina.cc",
-          "fingerprint": "qq",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AE",
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1723,6 +1526,158 @@
         "realitySettings": {
           "serverName": "steam-videos.cc",
           "fingerprint": "firefox",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AB",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru-cloudru.funky-monkey.app",
+            "port": 443,
+            "users": [
+              {
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "steam-videos.cc",
+          "fingerprint": "qq",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AC",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ru-cloudru.funky-monkey.app",
+            "port": 443,
+            "users": [
+              {
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "steam-videos.cc",
+          "fingerprint": "safari",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AD",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.26.248.130",
+            "port": 443,
+            "users": [
+              {
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "steam-videos.cc",
+          "fingerprint": "android",
+          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел AE",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "94.26.248.130",
+            "port": 443,
+            "users": [
+              {
+                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "raw",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
+        },
+        "rawSettings": {
+          "header": {
+            "type": "none"
+          }
+        },
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "steam-videos.cc",
+          "fingerprint": "edge",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
@@ -1733,7 +1688,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-cloudru.funky-monkey.app",
+            "address": "94.26.248.130",
             "port": 443,
             "users": [
               {
@@ -1760,7 +1715,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "steam-videos.cc",
-          "fingerprint": "safari",
+          "fingerprint": "firefox",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
@@ -1771,7 +1726,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-tmw.funky-monkey.app",
+            "address": "94.26.248.130",
             "port": 443,
             "users": [
               {
@@ -1798,7 +1753,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "steam-videos.cc",
-          "fingerprint": "firefox",
+          "fingerprint": "ios",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
@@ -1809,7 +1764,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-cloudru.funky-monkey.app",
+            "address": "94.26.248.130",
             "port": 443,
             "users": [
               {
@@ -1836,7 +1791,7 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "steam-videos.cc",
-          "fingerprint": "chrome",
+          "fingerprint": "safari",
           "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
         }
       }
@@ -1847,11 +1802,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-cloudru.funky-monkey.app",
-            "port": 443,
+            "address": "45.9.14.195",
+            "port": 8445,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "id": "99c1d1a2-5953-4566-8bea-a1861b4d0563",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -1873,9 +1828,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "edge",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "serverName": "bestrecipes-online.site",
+          "fingerprint": "firefox",
+          "publicKey": "6kOTlfXhKW3tCBtMFQjjDZXJ6dm5TsiLOL7IONrM0y4",
+          "shortId": "32164451823b4bd5"
         }
       }
     },
@@ -1885,11 +1841,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-tmw.funky-monkey.app",
-            "port": 443,
+            "address": "45.9.14.195",
+            "port": 8445,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "id": "99c1d1a2-5953-4566-8bea-a1861b4d0563",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -1911,9 +1867,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "edge",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "serverName": "bestrecipes-online.site",
+          "fingerprint": "chrome",
+          "publicKey": "6kOTlfXhKW3tCBtMFQjjDZXJ6dm5TsiLOL7IONrM0y4",
+          "shortId": "32164451823b4bd5"
         }
       }
     },
@@ -1923,11 +1880,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-tmw.funky-monkey.app",
-            "port": 443,
+            "address": "45.9.14.195",
+            "port": 8445,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "id": "99c1d1a2-5953-4566-8bea-a1861b4d0563",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -1949,9 +1906,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "ios",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "serverName": "bestrecipes-online.site",
+          "fingerprint": "edge",
+          "publicKey": "6kOTlfXhKW3tCBtMFQjjDZXJ6dm5TsiLOL7IONrM0y4",
+          "shortId": "32164451823b4bd5"
         }
       }
     },
@@ -1961,11 +1919,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "ru-tmw.funky-monkey.app",
-            "port": 443,
+            "address": "45.9.14.195",
+            "port": 8445,
             "users": [
               {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
+                "id": "99c1d1a2-5953-4566-8bea-a1861b4d0563",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -1987,9 +1945,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "qq",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+          "serverName": "bestrecipes-online.site",
+          "fingerprint": "ios",
+          "publicKey": "6kOTlfXhKW3tCBtMFQjjDZXJ6dm5TsiLOL7IONrM0y4",
+          "shortId": "32164451823b4bd5"
         }
       }
     },
@@ -1999,11 +1958,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.7",
-            "port": 443,
+            "address": "45.9.14.195",
+            "port": 8445,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
+                "id": "99c1d1a2-5953-4566-8bea-a1861b4d0563",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -2025,10 +1984,10 @@
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediatropa.cc",
-          "fingerprint": "android",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "bestrecipes-online.site",
+          "fingerprint": "safari",
+          "publicKey": "6kOTlfXhKW3tCBtMFQjjDZXJ6dm5TsiLOL7IONrM0y4",
+          "shortId": "32164451823b4bd5"
         }
       }
     },
@@ -2038,36 +1997,42 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.7",
-            "port": 443,
+            "address": "r9.pythonmakemigreat.wiki",
+            "port": 8443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "xhttpSettings": {
+          "path": "/",
+          "mode": "packet-up",
+          "extra": {
+            "xmux": {
+              "maxConnections": 3
+            },
+            "xPaddingBytes": "100-500",
+            "scMaxBufferedPosts": 10,
+            "scMaxEachPostBytes": "500000-1000000",
+            "scMinPostsIntervalMs": "20-40"
           }
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediatropa.cc",
-          "fingerprint": "chrome",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "ios",
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI",
+          "spiderX": "/"
         }
       }
     },
@@ -2077,36 +2042,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.7",
-            "port": 443,
+            "address": "155.212.186.34",
+            "port": 8443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "host": "r9.pythonmakemigreat.wiki",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediatropa.cc",
-          "fingerprint": "edge",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "android",
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
         }
       }
     },
@@ -2116,36 +2078,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.7",
-            "port": 443,
+            "address": "155.212.186.34",
+            "port": 8443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "host": "r9.pythonmakemigreat.wiki",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediatropa.cc",
+          "serverName": "stream.study.golangwikito.cfd",
           "fingerprint": "firefox",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
         }
       }
     },
@@ -2155,36 +2114,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "189.74.116.7",
-            "port": 443,
+            "address": "155.212.186.34",
+            "port": 8443,
             "users": [
               {
-                "id": "b3ab1262-e2ef-46ef-927b-f35c4cce15a4",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "host": "r9.pythonmakemigreat.wiki",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "api.mediatropa.cc",
-          "fingerprint": "qq",
-          "publicKey": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "shortId": "a8"
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "ios",
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
         }
       }
     },
@@ -2194,36 +2150,33 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.242.102.222",
-            "port": 443,
+            "address": "155.212.186.34",
+            "port": 8443,
             "users": [
               {
-                "id": "bfce4086-02f9-4006-b579-472210753a63",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "host": "r9.pythonmakemigreat.wiki",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "pl.happofficial.store",
+          "serverName": "stream.study.golangwikito.cfd",
           "fingerprint": "qq",
-          "publicKey": "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw",
-          "shortId": "b7d7a3622d85f30a"
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
         }
       }
     },
@@ -2233,604 +2186,193 @@
       "settings": {
         "vnext": [
           {
-            "address": "87.242.102.222",
-            "port": 443,
+            "address": "155.212.186.34",
+            "port": 8443,
             "users": [
               {
-                "id": "bfce4086-02f9-4006-b579-472210753a63",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "id": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/",
+          "host": "r9.pythonmakemigreat.wiki",
+          "mode": "packet-up"
         },
         "security": "reality",
         "realitySettings": {
-          "serverName": "pl.happofficial.store",
-          "fingerprint": "android",
-          "publicKey": "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw",
-          "shortId": "b7d7a3622d85f30a"
+          "serverName": "stream.study.golangwikito.cfd",
+          "fingerprint": "safari",
+          "publicKey": "QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AT",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "87.242.102.222",
+            "address": "185.178.208.167",
             "port": 443,
-            "users": [
-              {
-                "id": "bfce4086-02f9-4006-b579-472210753a63",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "password": "UwkcgmZpSWxLIMoLsi7sPA"
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/flow/",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pl.happofficial.store",
-          "fingerprint": "chrome",
-          "publicKey": "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw",
-          "shortId": "b7d7a3622d85f30a"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "inetdostup.com",
+          "fingerprint": "android"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AU",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "87.242.102.222",
+            "address": "185.178.208.167",
             "port": 443,
-            "users": [
-              {
-                "id": "bfce4086-02f9-4006-b579-472210753a63",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "password": "UwkcgmZpSWxLIMoLsi7sPA"
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/flow/",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pl.happofficial.store",
-          "fingerprint": "firefox",
-          "publicKey": "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw",
-          "shortId": "b7d7a3622d85f30a"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "inetdostup.com",
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AV",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "87.242.102.222",
+            "address": "185.178.208.167",
             "port": 443,
-            "users": [
-              {
-                "id": "bfce4086-02f9-4006-b579-472210753a63",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
+            "password": "UwkcgmZpSWxLIMoLsi7sPA"
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/flow/",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "pl.happofficial.store",
-          "fingerprint": "safari",
-          "publicKey": "WaU5vsybQPp-NZNXWSjUEVfbAG-hqDPipci1z1xkhiw",
-          "shortId": "b7d7a3622d85f30a"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "inetdostup.com",
+          "fingerprint": "firefox"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AW",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "93.184.169.233",
+            "address": "185.178.208.167",
             "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
+            "password": "UwkcgmZpSWxLIMoLsi7sPA"
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
+          "tcpKeepAliveInterval": 60,
+          "dialerProxy": "fragment"
         },
-        "xhttpSettings": {
-          "path": "/e90d4e998aad/9d1d9b8b",
-          "host": "srartsfoparts.store",
-          "mode": "auto"
+        "wsSettings": {
+          "path": "/flow/",
+          "headers": {
+            "Host": "api.14887277.xyz"
+          }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "srartsfoparts.store",
-          "fingerprint": "qq",
-          "publicKey": "pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w",
-          "shortId": "1205987ccd622887"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "inetdostup.com",
+          "fingerprint": "ios"
         }
       }
     },
     {
       "tag": "⚪ HEX | БС | Узел AX",
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "93.184.169.233",
+            "address": "185.178.208.167",
             "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
+            "password": "UwkcgmZpSWxLIMoLsi7sPA"
           }
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e90d4e998aad/9d1d9b8b",
-          "host": "srartsfoparts.store",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "srartsfoparts.store",
-          "fingerprint": "android",
-          "publicKey": "pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w",
-          "shortId": "1205987ccd622887"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AY",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "93.184.169.233",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e90d4e998aad/9d1d9b8b",
-          "host": "srartsfoparts.store",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "srartsfoparts.store",
-          "fingerprint": "chrome",
-          "publicKey": "pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w",
-          "shortId": "1205987ccd622887"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AZ",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "93.184.169.233",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e90d4e998aad/9d1d9b8b",
-          "host": "srartsfoparts.store",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "srartsfoparts.store",
-          "fingerprint": "firefox",
-          "publicKey": "pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w",
-          "shortId": "1205987ccd622887"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BA",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "93.184.169.233",
-            "port": 443,
-            "users": [
-              {
-                "id": "9a9f167d-b461-466f-be50-f0ffd598a6f8",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/e90d4e998aad/9d1d9b8b",
-          "host": "srartsfoparts.store",
-          "mode": "auto"
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "srartsfoparts.store",
-          "fingerprint": "ios",
-          "publicKey": "pF63V3JDoxSa9lMMKoXyxpjBJNqIsajj84LMXElvF1w",
-          "shortId": "1205987ccd622887"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BB",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.178.170.238",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v1/metrics/669bbee643",
-          "host": "rukzfr.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rukzfr.richhoodfoc.com",
-          "fingerprint": "android",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BC",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.178.170.238",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v1/metrics/669bbee643",
-          "host": "rukzfr.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rukzfr.richhoodfoc.com",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BD",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.178.170.238",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v1/metrics/669bbee643",
-          "host": "rukzfr.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rukzfr.richhoodfoc.com",
-          "fingerprint": "edge",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BE",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.178.170.238",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v1/metrics/669bbee643",
-          "host": "rukzfr.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rukzfr.richhoodfoc.com",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BF",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.178.170.238",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v1/metrics/669bbee643",
-          "host": "rukzfr.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rukzfr.richhoodfoc.com",
-          "fingerprint": "ios",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BG",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru-cloudru.funky-monkey.app",
-            "port": 443,
-            "users": [
-              {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/flow/",
+          "headers": {
+            "Host": "api.14887277.xyz"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "qq",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел BH",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "ru-tmw.funky-monkey.app",
-            "port": 443,
-            "users": [
-              {
-                "id": "ea759639-a58c-4c46-8e0b-4cc834bf6658",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "raw",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "steam-videos.cc",
-          "fingerprint": "safari",
-          "publicKey": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "inetdostup.com",
+          "fingerprint": "qq"
         }
       }
     },
