@@ -2,7 +2,7 @@
   {
     "remarks": "⚡ HEX | АВТОВЫБОР",
     "meta": {
-      "serverDescription": "HEX VPN • 31 серверов прошли индивидуальный HTTPS-тест"
+      "serverDescription": "HEX VPN • 30 серверов прошли индивидуальный HTTPS-тест"
     },
     "log": {
       "loglevel": "warning"
@@ -305,35 +305,6 @@
           }
         },
         "tag": "hex-node-013 | 🇩🇪 Германия 02"
-      },
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "201.51.11.65",
-              "port": 443,
-              "users": [
-                {
-                  "id": "1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200",
-                  "encryption": "none",
-                  "flow": "xtls-rprx-vision"
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "tcp",
-          "security": "reality",
-          "realitySettings": {
-            "serverName": "absolute-disaster.org",
-            "fingerprint": "edge",
-            "publicKey": "GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8",
-            "shortId": ""
-          }
-        },
-        "tag": "hex-node-014 | 🇷🇺 Россия 03"
       },
       {
         "protocol": "vless",
