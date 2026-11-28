@@ -3,13 +3,13 @@
     "name": "⚪ HEX | АВТО БС",
     "generator": "HEX VPN • upstream Igareck",
     "notes": [
-      "27 proxies (27 VLESS + 0 Hysteria + 0 Trojan)",
+      "26 proxies (26 VLESS + 0 Hysteria + 0 Trojan)",
       "Happ GLOBAL auto-select • leastPing • low-delay fragmentation • 1-minute health probes",
       "Source: igareck/vpn-configs-for-russia • mobile CIDR white-list feed"
     ],
     "client": "Happ",
     "source": "Vless-Reality-White-Lists-Rus-Mobile.txt",
-    "source_datetime": "2026-11-28 10:01 Moscow"
+    "source_datetime": "2026-11-28 11:07 Moscow"
   },
   "log": {
     "loglevel": "warning"
@@ -440,6 +440,196 @@
       "settings": {
         "vnext": [
           {
+            "address": "109.172.87.68",
+            "port": 443,
+            "users": [
+              {
+                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "android",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел B",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.172.87.68",
+            "port": 443,
+            "users": [
+              {
+                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "chrome",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел C",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.172.87.68",
+            "port": 443,
+            "users": [
+              {
+                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "edge",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел D",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.172.87.68",
+            "port": 443,
+            "users": [
+              {
+                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел E",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.172.87.68",
+            "port": 443,
+            "users": [
+              {
+                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "sockopt": {
+          "tcpKeepAliveIdle": 300,
+          "tcpKeepAliveInterval": 60
+        },
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "safari",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "⚪ HEX | БС | Узел F",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "185.178.208.140",
             "port": 443,
             "users": [
@@ -475,172 +665,12 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел B",
+      "tag": "⚪ HEX | БС | Узел G",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
             "address": "185.178.208.140",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/useraction/collect/33de51ecdc75/",
-          "headers": {
-            "Host": "locationfree.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "help.cs-on.ru",
-          "fingerprint": "firefox",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел C",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.178.208.140",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/useraction/collect/33de51ecdc75/",
-          "headers": {
-            "Host": "locationfree.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "help.cs-on.ru",
-          "fingerprint": "ios",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел D",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "185.178.208.140",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/useraction/collect/33de51ecdc75/",
-          "headers": {
-            "Host": "locationfree.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "help.cs-on.ru",
-          "fingerprint": "safari",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел E",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pyskyzoc.edgecdn.pro",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/useraction/collect/33de51ecdc75/",
-          "headers": {
-            "Host": "locationfree.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "help.cs-on.ru",
-          "fingerprint": "android",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел F",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
@@ -675,12 +705,12 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел G",
+      "tag": "⚪ HEX | БС | Узел H",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "pyskyzoc.edgecdn.pro",
+            "address": "185.178.208.140",
             "port": 443,
             "users": [
               {
@@ -715,12 +745,12 @@
       }
     },
     {
-      "tag": "⚪ HEX | БС | Узел H",
+      "tag": "⚪ HEX | БС | Узел I",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "pyskyzoc.edgecdn.pro",
+            "address": "185.178.208.140",
             "port": 443,
             "users": [
               {
@@ -748,46 +778,6 @@
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
           "fingerprint": "ios",
-          "alpn": [
-            "http/1.1"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел I",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "pyskyzoc.edgecdn.pro",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
-        },
-        "wsSettings": {
-          "path": "/useraction/collect/33de51ecdc75/",
-          "headers": {
-            "Host": "locationfree.icu"
-          }
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "help.cs-on.ru",
-          "fingerprint": "safari",
           "alpn": [
             "http/1.1"
           ]
@@ -827,7 +817,10 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "android"
+          "fingerprint": "qq",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -864,7 +857,10 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "chrome"
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -901,7 +897,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "edge"
+          "fingerprint": "android"
         }
       }
     },
@@ -938,7 +934,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -975,7 +971,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "ios"
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1022,7 +1018,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.140",
+            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
@@ -1049,7 +1045,10 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "safari"
+          "fingerprint": "android",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -1059,7 +1058,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "185.178.208.140",
+            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
@@ -1086,7 +1085,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "help.cs-on.ru",
-          "fingerprint": "qq",
+          "fingerprint": "edge",
           "alpn": [
             "http/1.1"
           ]
@@ -1099,36 +1098,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.207.67",
+            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
                 "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/useraction/collect/33de51ecdc75/",
+          "headers": {
+            "Host": "locationfree.icu"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ruturkeymicro5.gangtype.com",
-          "fingerprint": "android",
-          "publicKey": "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE",
-          "shortId": "a671b94142229346"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "help.cs-on.ru",
+          "fingerprint": "firefox",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -1138,36 +1138,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.207.67",
+            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
                 "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/useraction/collect/33de51ecdc75/",
+          "headers": {
+            "Host": "locationfree.icu"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ruturkeymicro5.gangtype.com",
-          "fingerprint": "edge",
-          "publicKey": "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE",
-          "shortId": "a671b94142229346"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "help.cs-on.ru",
+          "fingerprint": "ios",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -1177,36 +1178,37 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.207.67",
+            "address": "pyskyzoc.edgecdn.pro",
             "port": 443,
             "users": [
               {
                 "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/useraction/collect/33de51ecdc75/",
+          "headers": {
+            "Host": "locationfree.icu"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ruturkeymicro5.gangtype.com",
-          "fingerprint": "firefox",
-          "publicKey": "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE",
-          "shortId": "a671b94142229346"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "help.cs-on.ru",
+          "fingerprint": "safari",
+          "alpn": [
+            "http/1.1"
+          ]
         }
       }
     },
@@ -1216,36 +1218,34 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.207.67",
+            "address": "185.178.208.140",
             "port": 443,
             "users": [
               {
                 "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "ws",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
           "tcpKeepAliveInterval": 60,
           "dialerProxy": "fragment"
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
+        "wsSettings": {
+          "path": "/useraction/collect/33de51ecdc75/",
+          "headers": {
+            "Host": "locationfree.icu"
           }
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ruturkeymicro5.gangtype.com",
-          "fingerprint": "ios",
-          "publicKey": "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE",
-          "shortId": "a671b94142229346"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "help.cs-on.ru",
+          "fingerprint": "edge"
         }
       }
     },
@@ -1255,36 +1255,32 @@
       "settings": {
         "vnext": [
           {
-            "address": "157.22.207.67",
+            "address": "109.172.87.68",
             "port": 443,
             "users": [
               {
                 "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
+                "encryption": "none"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "raw",
+        "network": "xhttp",
         "sockopt": {
           "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60,
-          "dialerProxy": "fragment"
+          "tcpKeepAliveInterval": 60
         },
-        "rawSettings": {
-          "header": {
-            "type": "none"
-          }
+        "xhttpSettings": {
+          "path": "/api/v2/telemetry/c3a474d77a",
+          "host": "rusamicro67.richhoodfoc.com",
+          "mode": "auto"
         },
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "ruturkeymicro5.gangtype.com",
-          "fingerprint": "qq",
-          "publicKey": "bghjRaZFOKOS1TwpvBXyQJetutvQigF3_5jgSC4fUjE",
-          "shortId": "a671b94142229346"
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "rusamicro67.richhoodfoc.com",
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1319,10 +1315,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "rusamicro67.richhoodfoc.com",
-          "fingerprint": "android",
-          "alpn": [
-            "h2"
-          ]
+          "fingerprint": "firefox"
         }
       }
     },
@@ -1357,10 +1350,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "rusamicro67.richhoodfoc.com",
-          "fingerprint": "chrome",
-          "alpn": [
-            "h2"
-          ]
+          "fingerprint": "ios"
         }
       }
     },
@@ -1395,10 +1385,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "rusamicro67.richhoodfoc.com",
-          "fingerprint": "edge",
-          "alpn": [
-            "h2"
-          ]
+          "fingerprint": "qq"
         }
       }
     },
@@ -1433,48 +1420,7 @@
         "security": "tls",
         "tlsSettings": {
           "serverName": "rusamicro67.richhoodfoc.com",
-          "fingerprint": "firefox",
-          "alpn": [
-            "h2"
-          ]
-        }
-      }
-    },
-    {
-      "tag": "⚪ HEX | БС | Узел AA",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "109.172.87.68",
-            "port": 443,
-            "users": [
-              {
-                "id": "f4b08bf1-d9bd-4755-aa88-ba922282c608",
-                "encryption": "none"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "sockopt": {
-          "tcpKeepAliveIdle": 300,
-          "tcpKeepAliveInterval": 60
-        },
-        "xhttpSettings": {
-          "path": "/api/v2/telemetry/c3a474d77a",
-          "host": "rusamicro67.richhoodfoc.com",
-          "mode": "auto"
-        },
-        "security": "tls",
-        "tlsSettings": {
-          "serverName": "rusamicro67.richhoodfoc.com",
-          "fingerprint": "safari",
-          "alpn": [
-            "h2"
-          ]
+          "fingerprint": "safari"
         }
       }
     },
